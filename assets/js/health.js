@@ -4,17 +4,10 @@
   var root = document.getElementById("health-root");
   var homeTeaser = document.getElementById("home-briefing");
 
-  // baseurl: prefer the data attribute on the health page, else derive from this script's src.
-  var baseurl = root ? (root.getAttribute("data-baseurl") || "") : deriveBaseurl();
-  function deriveBaseurl() {
-    var s = document.currentScript || (function () {
-      var els = document.getElementsByTagName("script");
-      return els[els.length - 1];
-    })();
-    if (!s) return "";
-    var m = s.src.match(/^(.*)\/assets\/js\/health\.js/);
-    try { return m ? new URL(m[1]).pathname : ""; } catch (e) { return m ? m[1] : ""; }
-  }
+  // Site base path is exposed on <body data-baseurl> by the default layout,
+  // so it works on every page (home teaser + health reader). Empty string
+  // when the site is served at the domain root.
+  var baseurl = (document.body && document.body.getAttribute("data-baseurl")) || "";
 
   var INDEX_URL = baseurl + "/health/index.json";
   function briefingUrl(date) { return baseurl + "/health/briefings/" + date + ".json"; }
