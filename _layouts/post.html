@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<section class="section wrap">
+  <a class="post-back" href="{{ '/azure/' | relative_url }}">← Back to Azure</a>
+
+  <header class="post-header">
+    {% if page.category %}
+      <span class="badge badge--{% if page.category == 'how-to' %}howto{% else %}lessons{% endif %}">
+        {{ page.category | replace: '-', ' ' }}
+      </span>
+    {% endif %}
+    <h1>{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.tags %} · {{ page.tags | join: ", " }}{% endif %}</p>
+  </header>
+
+  <article class="glass content reveal">
+    {{ content }}
+  </article>
+</section>
