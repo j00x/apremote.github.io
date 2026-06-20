@@ -1,0 +1,19 @@
+<header class="nav-shell">
+  <nav class="nav glass" aria-label="Primary">
+    <a class="nav__brand" href="{{ '/' | relative_url }}">
+      <span class="nav__brand-mark" aria-hidden="true">AP</span>
+      <span class="nav__brand-text">Adam Pratt</span>
+    </a>
+
+    <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav__links" id="nav-links">
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/azure/' | relative_url }}">Azure</a></li>
+      <li><a href="{{ '/health/' | relative_url }}">Health</a></li>
+      <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+    </ul>
+  </nav>
+</header>
