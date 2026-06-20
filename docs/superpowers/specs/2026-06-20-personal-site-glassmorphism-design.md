@@ -3,7 +3,7 @@
 **Date:** 2026-06-20
 **Status:** Approved (design) — pending spec review before implementation planning
 **Owner:** Adam Pratt — Cloud Architect · DevOps Engineer · Developer
-**Repo:** `j00x/apremote.github.io` (served as a project page at `https://j00x.github.io/apremote.github.io/`)
+**Repo:** `j00x/apremote.github.io` — to be renamed to `apremote` so the site is served at the shorter `https://j00x.github.io/apremote`
 
 ---
 
@@ -22,9 +22,10 @@ Build a fun, modern, aesthetically pleasing personal site on GitHub Pages with a
 - **Static hosting only.** GitHub Pages cannot run server-side code or a database.
   Any "dynamic" content must arrive via a commit (push) or be fetched client-side from a
   static file or public API.
-- **Project-page base path.** The repo is `apremote.github.io` owned by `j00x`, so the
-  site is served from a subpath (`/apremote.github.io/`). All asset and internal links
-  must respect `site.baseurl` so they resolve correctly.
+- **Project-page base path.** The site is served from a subpath equal to the repo name.
+  The repo will be renamed to `apremote`, so the base path is `/apremote` and the site
+  lives at `https://j00x.github.io/apremote`. All asset and internal links must respect
+  `site.baseurl` so they resolve correctly.
 - **Existing pipeline.** `.github/workflows/jekyll-gh-pages.yml` already builds with
   `actions/jekyll-build-pages` (Jekyll in safe mode — **no custom plugins**) and deploys
   to Pages. We keep this workflow.
@@ -168,8 +169,9 @@ sources are structured so they render as citation chips.
 ## 9. Build & deploy
 
 - Keep the existing `jekyll-gh-pages.yml` workflow (push to `main` → build → deploy).
-- Configure `_config.yml` with `baseurl: "/apremote.github.io"` and `url:
+- Configure `_config.yml` with `baseurl: "/apremote"` and `url:
   "https://j00x.github.io"` so links/assets resolve on the project-page subpath.
+  (Requires renaming the GitHub repo to `apremote`.)
 - JSON files under `/health/` are served as static assets (copied as-is by the Jekyll build)
   and fetched client-side.
 
@@ -182,7 +184,7 @@ sources are structured so they render as citation chips.
   - The Health briefing reader loading the latest sample day and switching to an archived day.
 - Verify on **desktop and a phone-width viewport (~375px)**.
 - Verify `prefers-reduced-motion` disables non-essential motion.
-- Confirm base-path links/assets resolve under the `/apremote.github.io/` subpath.
+- Confirm base-path links/assets resolve under the `/apremote` subpath.
 
 ## 11. Out of scope (YAGNI)
 
