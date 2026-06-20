@@ -1,0 +1,6 @@
+title: apremote
+description: A GitHub Pages site built with Jekyll.
+theme: minima
+
+# Build settings
+markdown: kramdown
