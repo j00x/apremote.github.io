@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-20",
+  "title": "Daily Health Briefing",
+  "intro": "Good morning! Here's today's research digest across your tracked topics.",
+  "sections": [
+    {
+      "topic": "Anti-Aging",
+      "icon": "sparkle",
+      "body": "A new review summarizes evidence that **urolithin A** supplementation supports mitochondrial health and muscle endurance in older adults. Separately, dermatology trials continue to favor **topical retinoids** as the best-evidenced anti-aging actives, while early data on **NAD+ precursors** remains promising but not yet conclusive.\n\n- Prioritize interventions with human RCTs over anecdote.\n- Sunscreen remains the highest-ROI \"anti-aging\" habit.",
+      "sources": [
+        { "title": "Urolithin A and mitochondrial function in aging", "publisher": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/", "date": "2026-06-18" },
+        { "title": "Topical retinoids: efficacy review", "publisher": "JAMA Dermatology", "url": "https://jamanetwork.com/", "date": "2026-06-15" }
+      ]
+    },
+    {
+      "topic": "HIIT Workouts for Women",
+      "icon": "bolt",
+      "body": "A randomized study found that **2x weekly low-volume HIIT** (e.g. 4×4 minute intervals) improved VO2max comparably to longer moderate-intensity sessions in women, with better adherence. Researchers emphasized progressive overload and adequate recovery to avoid overtraining.",
+      "sources": [
+        { "title": "Low-volume HIIT and cardiorespiratory fitness in women", "publisher": "NIH", "url": "https://www.ncbi.nlm.nih.gov/", "date": "2026-06-17" }
+      ]
+    },
+    {
+      "topic": "Pelvic Floor Exercises",
+      "icon": "anchor",
+      "body": "Updated physiotherapy guidance reaffirms **supervised pelvic floor muscle training** as first-line for stress urinary incontinence. Key point: *quality over quantity* — correct activation with a clinician beats high-rep self-directed routines.",
+      "sources": [
+        { "title": "Pelvic floor muscle training guidelines", "publisher": "Medscape", "url": "https://www.medscape.com/", "date": "2026-06-16" }
+      ]
+    },
+    {
+      "topic": "Alternative Cancer Treatments",
+      "icon": "ribbon",
+      "body": "For **HER2+ breast cancer**, conference coverage highlighted next-generation **antibody-drug conjugates** extending progression-free survival in pretreated patients. Research into **p53-pathway** targeting remains largely preclinical. Always discuss options with an oncologist — \"alternative\" should mean evidence-based adjuncts, not replacements for standard care.",
+      "sources": [
+        { "title": "Antibody-drug conjugates in HER2+ breast cancer", "publisher": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/", "date": "2026-06-14" },
+        { "title": "Targeting the p53 pathway: state of the field", "publisher": "NIH", "url": "https://www.ncbi.nlm.nih.gov/", "date": "2026-06-10" }
+      ]
+    },
+    {
+      "topic": "Sleep — Studies & Best Practices",
+      "icon": "moon",
+      "body": "A meta-analysis links **consistent sleep/wake timing** to fewer nighttime awakenings — schedule regularity outperformed total time in bed for sleep continuity. On supplements, **magnesium glycinate** and low-dose **melatonin (0.5–1 mg)** had modest support; high-dose melatonin did not improve outcomes.\n\n1. Fixed wake time, even on weekends.\n2. Dim, cool, screen-free wind-down.\n3. Re-evaluate caffeine after 2 p.m.",
+      "sources": [
+        { "title": "Sleep regularity and continuity: meta-analysis", "publisher": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/", "date": "2026-06-12" },
+        { "title": "Melatonin dosing for sleep onset", "publisher": "NIH", "url": "https://www.ncbi.nlm.nih.gov/", "date": "2026-06-09" }
+      ]
+    }
+  ]
+}

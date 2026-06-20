@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-19",
+  "title": "Daily Health Briefing",
+  "intro": "Yesterday's digest, archived for reference.",
+  "sections": [
+    {
+      "topic": "Anti-Aging",
+      "icon": "sparkle",
+      "body": "Caloric-restriction-mimetic research featured **spermidine** intake from food sources (wheat germ, aged cheese) associated with autophagy markers in a cohort study. Observational only — causation not established.",
+      "sources": [
+        { "title": "Dietary spermidine and longevity markers", "publisher": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/", "date": "2026-06-17" }
+      ]
+    },
+    {
+      "topic": "HIIT Workouts for Women",
+      "icon": "bolt",
+      "body": "A crossover trial reported that **sprint-interval training** improved insulin sensitivity in premenopausal women after just three weeks. Caution advised for those new to high-intensity work — ramp volume gradually.",
+      "sources": [
+        { "title": "Sprint-interval training and insulin sensitivity", "publisher": "NIH", "url": "https://www.ncbi.nlm.nih.gov/", "date": "2026-06-16" }
+      ]
+    },
+    {
+      "topic": "Pelvic Floor Exercises",
+      "icon": "anchor",
+      "body": "A usability study found **biofeedback-assisted training apps** improved adherence versus paper instructions, though clinical supervision still produced the best functional outcomes.",
+      "sources": [
+        { "title": "Biofeedback apps for pelvic floor adherence", "publisher": "Medscape", "url": "https://www.medscape.com/", "date": "2026-06-15" }
+      ]
+    },
+    {
+      "topic": "Alternative Cancer Treatments",
+      "icon": "ribbon",
+      "body": "A review of **integrative oncology** found exercise and dietary counseling improved quality of life during HER2+ treatment, used **alongside** standard therapy. No alternative monotherapy showed survival benefit.",
+      "sources": [
+        { "title": "Integrative oncology quality-of-life outcomes", "publisher": "JAMA Oncology", "url": "https://jamanetwork.com/", "date": "2026-06-13" }
+      ]
+    },
+    {
+      "topic": "Sleep — Studies & Best Practices",
+      "icon": "moon",
+      "body": "Light-exposure research reinforced that **morning bright light** advances circadian phase and can reduce disjointed sleep for night owls. Aim for 10–20 minutes of outdoor light shortly after waking.",
+      "sources": [
+        { "title": "Morning light exposure and circadian phase", "publisher": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/", "date": "2026-06-11" }
+      ]
+    }
+  ]
+}
