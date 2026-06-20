@@ -5,10 +5,13 @@ description: >-
   Weekly Azure how-tos and lessons learned, plus a daily health research briefing.
 author: Adam Pratt
 
-# Served via the custom domain (see CNAME) at the domain root, so baseurl
-# is empty. https://learn.apnet-remote.net
+# This is a PROJECT site under the j00x user site (which owns the custom
+# domain learn.apnet-remote.net). It is served at the /apremote.github.io/
+# subpath, so baseurl is the repo name. Do NOT add a CNAME here — the domain
+# belongs to the j00x.github.io user-site repo.
+# Live at: https://learn.apnet-remote.net/apremote.github.io/
 url: "https://learn.apnet-remote.net"
-baseurl: ""
+baseurl: "/apremote.github.io"
 
 # Social / contact (edit handles as needed)
 social:
