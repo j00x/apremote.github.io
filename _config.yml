@@ -5,11 +5,10 @@ description: >-
   Weekly Azure how-tos and lessons learned, plus a daily health research briefing.
 author: Adam Pratt
 
-# Served as a GitHub Pages project page under j00x.github.io.
-# baseurl must match the repository name (apremote.github.io), so the
-# site is served at https://j00x.github.io/apremote.github.io
-url: "https://j00x.github.io"
-baseurl: "/apremote.github.io"
+# Served via the custom domain (see CNAME) at the domain root, so baseurl
+# is empty. https://learn.apnet-remote.net
+url: "https://learn.apnet-remote.net"
+baseurl: ""
 
 # Social / contact (edit handles as needed)
 social:

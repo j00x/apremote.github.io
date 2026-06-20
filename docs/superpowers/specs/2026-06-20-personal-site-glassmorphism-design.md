@@ -3,7 +3,7 @@
 **Date:** 2026-06-20
 **Status:** Approved (design) — pending spec review before implementation planning
 **Owner:** Adam Pratt — Cloud Architect · DevOps Engineer · Developer
-**Repo:** `j00x/apremote.github.io` (served as a project page at `https://j00x.github.io/apremote.github.io/`)
+**Repo:** `j00x/apremote.github.io` — served via the custom domain `https://learn.apnet-remote.net` (a `CNAME` file pins the domain; `baseurl` is empty)
 
 ---
 
@@ -22,9 +22,10 @@ Build a fun, modern, aesthetically pleasing personal site on GitHub Pages with a
 - **Static hosting only.** GitHub Pages cannot run server-side code or a database.
   Any "dynamic" content must arrive via a commit (push) or be fetched client-side from a
   static file or public API.
-- **Project-page base path.** The repo is `apremote.github.io` owned by `j00x`, so the
-  site is served from a subpath (`/apremote.github.io/`). All asset and internal links
-  must respect `site.baseurl` so they resolve correctly.
+- **Custom domain at root.** The site is served via the custom domain
+  `learn.apnet-remote.net` at the domain root, so `baseurl` is empty (`""`). A `CNAME`
+  file pins the domain across rebuilds. All asset and internal links use `site.baseurl`
+  (via `relative_url`) so they continue to resolve if the base path ever changes.
 - **Existing pipeline.** `.github/workflows/jekyll-gh-pages.yml` already builds with
   `actions/jekyll-build-pages` (Jekyll in safe mode — **no custom plugins**) and deploys
   to Pages. We keep this workflow.
@@ -168,8 +169,9 @@ sources are structured so they render as citation chips.
 ## 9. Build & deploy
 
 - Keep the existing `jekyll-gh-pages.yml` workflow (push to `main` → build → deploy).
-- Configure `_config.yml` with `baseurl: "/apremote.github.io"` and `url:
-  "https://j00x.github.io"` so links/assets resolve on the project-page subpath.
+- Configure `_config.yml` with `baseurl: ""` and `url:
+  "https://learn.apnet-remote.net"`, and add a `CNAME` file (`learn.apnet-remote.net`)
+  so the custom domain persists across rebuilds.
 - JSON files under `/health/` are served as static assets (copied as-is by the Jekyll build)
   and fetched client-side.
 
@@ -182,7 +184,7 @@ sources are structured so they render as citation chips.
   - The Health briefing reader loading the latest sample day and switching to an archived day.
 - Verify on **desktop and a phone-width viewport (~375px)**.
 - Verify `prefers-reduced-motion` disables non-essential motion.
-- Confirm base-path links/assets resolve under the `/apremote.github.io/` subpath.
+- Confirm links/assets resolve at the domain root (empty `baseurl`).
 
 ## 11. Out of scope (YAGNI)
 
