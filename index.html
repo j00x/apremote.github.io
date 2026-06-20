@@ -1,0 +1,63 @@
+---
+layout: default
+title: null
+description: Adam Pratt — Cloud Architect, DevOps Engineer, and Developer. Weekly Azure how-tos and a daily health research briefing.
+scripts:
+  - /assets/js/markdown.js
+  - /assets/js/health.js
+---
+
+<section class="hero wrap">
+  <span class="hero__eyebrow reveal">Personal HQ</span>
+  <h1 class="hero__name reveal">Adam Pratt</h1>
+  <p class="hero__title reveal">Cloud Architect · DevOps Engineer · Developer</p>
+  <p class="hero__lede reveal">
+    I architect and automate cloud platforms on Azure. Here I publish weekly
+    how-to walkthroughs and lessons learned — plus a daily health research briefing.
+  </p>
+  <div class="hero__cta reveal">
+    <a class="btn btn--primary" href="{{ '/azure/' | relative_url }}">Read the blog</a>
+    <a class="btn" href="{{ '/health/' | relative_url }}">Today's briefing</a>
+  </div>
+  {% include social.html %}
+</section>
+
+<section class="section wrap">
+  <div class="grid grid--2">
+
+    {% assign latest = site.posts.first %}
+    <article class="card glass reveal">
+      <span class="card__kicker">
+        <span class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#38e1ff" stroke-width="2"><path d="M4 17l6-6-6-6"/><path d="M12 19h8"/></svg>
+        </span>
+        Latest Azure post
+      </span>
+      {% if latest %}
+        <h2 class="card__title">{{ latest.title }}</h2>
+        <p class="card__meta">{{ latest.date | date: "%B %-d, %Y" }}</p>
+        <p class="card__body">{{ latest.summary | default: latest.excerpt | strip_html | truncate: 140 }}</p>
+        <a class="card__link" href="{{ latest.url | relative_url }}">Read walkthrough →</a>
+      {% else %}
+        <h2 class="card__title">Coming soon</h2>
+        <p class="card__body">The first Azure walkthrough is on its way.</p>
+        <a class="card__link" href="{{ '/azure/' | relative_url }}">Visit the blog →</a>
+      {% endif %}
+    </article>
+
+    <article class="card glass reveal">
+      <span class="card__kicker">
+        <span class="card__icon" aria-hidden="true" style="box-shadow:0 0 22px rgba(47,245,200,.4)">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#2ff5c8" stroke-width="2"><path d="M3 12h4l2 5 4-12 2 7h6"/></svg>
+        </span>
+        Today's briefing
+      </span>
+      <div id="home-briefing">
+        <h2 class="card__title">Daily Health Briefing</h2>
+        <p class="card__body">Loading today's research digest…</p>
+      </div>
+      <a class="card__link" href="{{ '/health/' | relative_url }}">Open briefing →</a>
+    </article>
+
+  </div>
+</section>

@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-20",
+  "title": "Daily Health Briefing",
+  "intro": "Good morning! Here's today's research digest across your tracked topics. Each section summarizes recent, reputable findings — sources are linked as chips.",
+  "sections": [
+    {
+      "topic": "Anti-Aging",
+      "icon": "sparkle",
+      "body": "**Urolithin A (UA)** continues to look interesting for cellular/immune aging but not as a proven performance booster. A 2025 randomized, placebo-controlled trial (1,000 mg/day for 4 weeks in healthy middle-aged adults) found UA safely shifted immune-cell composition and metabolism in ways that may counter age-related immune decline (\"inflammaging\"). However, a 2025 systematic review of randomized trials concluded there is **insufficient evidence** that UA improves muscle strength, muscle mass, or physical performance — it's well tolerated, but the benefits aren't established yet.\n\n**Taurine** took a hit: a high-profile analysis found circulating taurine does *not* reliably decline with age (it even rose in women), undercutting the idea that taurine is a good aging biomarker or an easy longevity supplement. Human trials remain inconclusive.\n\n- Favor interventions backed by human RCTs over anecdote.\n- Treat single-supplement \"longevity\" claims with healthy skepticism — most are still unproven.",
+      "sources": [
+        { "title": "Effect of the mitophagy inducer urolithin A on age-related immune decline: a randomized, placebo-controlled trial", "publisher": "Nature Aging", "url": "https://www.nature.com/articles/s43587-025-00996-x", "date": "2025" },
+        { "title": "Urolithin A supplementation on muscle strength, mass and physical performance: a systematic review", "publisher": "medRxiv", "url": "https://www.medrxiv.org/content/10.1101/2025.07.10.25331277v1", "date": "2025" },
+        { "title": "Taurine anti-aging potential in doubt", "publisher": "Inside Precision Medicine", "url": "https://www.insideprecisionmedicine.com/topics/patient-care/taurine-anti-aging-potential-in-doubt/", "date": "2025" }
+      ]
+    },
+    {
+      "topic": "HIIT Workouts for Women",
+      "icon": "bolt",
+      "body": "The evidence keeps favoring HIIT as a **time-efficient** way to improve fitness and body composition in women.\n\n- A 2025 systematic review and meta-analysis in recreationally active females found HIIT significantly **improves cardiorespiratory fitness (VO2max)** and **reduces body-fat percentage** across age groups.\n- In adolescent women, 6–8 week programs (two sessions/week of ~30-second efforts at 90–95% of max heart rate with active recovery) improved BMI, body fat, lipid profile, blood pressure, and VO2max.\n- In postmenopausal women with overweight/obesity, a 12-week HIIT program reduced fat mass and improved insulin sensitivity (HOMA-IR) and lipids.\n\nPractical note: ramp volume gradually and allow recovery — intensity is the active ingredient, but consistency and adequate rest drive results.",
+      "sources": [
+        { "title": "Effects of HIIT on physical fitness and body composition in recreationally active females: systematic review & meta-analysis", "publisher": "Scientific Reports", "url": "https://www.nature.com/articles/s41598-025-11809-x", "date": "2025" },
+        { "title": "HIIT: impact of duration on body composition, cardiometabolic health and aerobic capacity in adolescent women", "publisher": "Metabolites (MDPI)", "url": "https://www.mdpi.com/2218-1989/15/9/623", "date": "2025" },
+        { "title": "HIIT and concurrent training in postmenopausal women with overweight/obesity: a clinical trial", "publisher": "EEMD", "url": "https://www.explorationpub.com/Journals/eemd/Article/101469", "date": "2025" }
+      ]
+    },
+    {
+      "topic": "Pelvic Floor Exercises",
+      "icon": "anchor",
+      "body": "**Pelvic floor muscle training (PFMT)** remains the evidence-based first-line, conservative treatment for urinary incontinence.\n\n- A recent meta-analysis in postmenopausal women estimated a **~92% probability of significant improvement** in incontinence symptoms with PFMT versus controls.\n- A 2025 systematic review found PFMT effective to prevent and treat incontinence in postpartum women, with **biofeedback** adding benefit for muscle strength.\n- Across postmenopausal training studies, effective protocols clustered around **~3 sessions/week for ~10 weeks**, and 14 of 15 studies showed improved pelvic-floor function.\n\nKey point: *technique and consistency matter more than sheer reps* — correct activation (ideally confirmed with a clinician or biofeedback) is what drives results.",
+      "sources": [
+        { "title": "Effect of pelvic floor muscle training on urinary incontinence in postmenopausal women: systematic review & meta-analysis", "publisher": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/39615241/", "date": "2024" },
+        { "title": "PFMT to prevent and treat urinary incontinence in postpartum primiparous women: a systematic review", "publisher": "J Obstet Gynaecol Can", "url": "https://www.jogc.com/article/S1701-2163(25)00269-5/abstract", "date": "2025" },
+        { "title": "Training interventions to improve pelvic floor muscle function in postmenopausal women: a systematic review", "publisher": "J. Clin. Med. (MDPI)", "url": "https://www.mdpi.com/2077-0383/14/13/4800", "date": "2025" }
+      ]
+    },
+    {
+      "topic": "Alternative Cancer Treatments",
+      "icon": "ribbon",
+      "body": "For **HER2-positive breast cancer**, the big recent news is **DESTINY-Breast09** (phase 3, published in the *New England Journal of Medicine*, Oct 2025): as first-line therapy, the antibody-drug conjugate **trastuzumab deruxtecan (T-DXd) plus pertuzumab** nearly doubled median progression-free survival versus the long-standing standard (THP) — about **40.7 vs 26.9 months** — and is expected to change first-line practice.\n\nFor **TP53 / p53-mutant** cancers, p53 is still considered \"undruggable\" and **no p53-targeted therapy is yet approved**. The most advanced candidates are mutation-specific: **rezatapopt (PC14586)**, a reactivator for the TP53 Y220C mutation, is in phase 1/2 (PYNNACLE), and a T-cell engager targeting the R175H mutation entered phase 1 in 2025. These remain early-stage.\n\nImportant framing: \"alternative\" should mean **evidence-based** options discussed with an oncologist — not replacements for standard care.",
+      "sources": [
+        { "title": "Trastuzumab Deruxtecan plus Pertuzumab for HER2-Positive Metastatic Breast Cancer (DESTINY-Breast09)", "publisher": "NEJM", "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2508668", "date": "2025" },
+        { "title": "Emerging Therapeutic Strategies for Targeting Tumors With TP53 Mutations", "publisher": "ASCO Daily News", "url": "https://dailynews.ascopubs.org/do/emerging-therapeutic-strategies-targeting-tumors-tp53-mutations", "date": "2025" },
+        { "title": "Evaluation of PC14586 (rezatapopt) in advanced solid tumors with a TP53 Y220C mutation (PYNNACLE)", "publisher": "ClinicalTrials.gov", "url": "https://clinicaltrials.gov/study/NCT04585750", "date": "2025" }
+      ]
+    },
+    {
+      "topic": "Sleep — Studies & Best Practices",
+      "icon": "moon",
+      "body": "The strongest evidence still points to behavior over supplements for disjointed or restless sleep.\n\n- **CBT-I (cognitive behavioral therapy for insomnia)** is the guideline-recommended first-line treatment, improving sleep efficiency ~10–20% with large, durable effects — roughly **5–7x more effective** than supplement approaches.\n- **Magnesium** (bisglycinate): a 2025 randomized trial showed only a **modest** improvement in insomnia severity, much of it attributable to placebo (small effect size). Reasonable to try, but not a cure.\n- **Melatonin**: the AASM advises **against routine use for chronic insomnia**; it's most useful for circadian issues like jet lag or shift work, and low doses are typically sufficient.\n\nBest-practice habits:\n\n1. Fixed **wake time**, even on weekends.\n2. Use the bed **only for sleep**; cool, dark, quiet room.\n3. Dim lights and cut screens during a wind-down window.\n4. If problems persist, see a provider to rule out conditions like sleep apnea and consider CBT-I.",
+      "sources": [
+        { "title": "Missing the mark with melatonin: finding the best treatment for insomnia", "publisher": "AASM", "url": "https://aasm.org/missing-the-mark-melatonin-finding-best-treatment-insomnia/", "date": "2025" },
+        { "title": "Management of Chronic Insomnia Disorder in Adults: ACP Clinical Practice Guideline", "publisher": "Annals of Internal Medicine", "url": "https://www.acpjournals.org/doi/10.7326/M15-2175", "date": "2016" },
+        { "title": "Magnesium Bisglycinate Supplementation in Adults Reporting Poor Sleep: a randomized, placebo-controlled trial", "publisher": "PMC", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12412596/", "date": "2025" }
+      ]
+    }
+  ]
+}

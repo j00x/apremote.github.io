@@ -1,0 +1,27 @@
+---
+layout: page
+title: Azure
+permalink: /azure/
+description: Weekly Azure cloud-architecture how-to walkthroughs and lessons learned by Adam Pratt.
+---
+
+<p>Weekly cloud-architecture <strong>how-to walkthroughs</strong> and <strong>lessons learned</strong> from building on Microsoft Azure.</p>
+
+<div class="grid grid--3" style="margin-top:1.6rem">
+  {% for post in site.posts %}
+  <article class="card glass">
+    <span class="badge badge--{% if post.category == 'how-to' %}howto{% else %}lessons{% endif %}">
+      {{ post.category | default: 'post' | replace: '-', ' ' }}
+    </span>
+    <h2 class="card__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="card__meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="card__body">{{ post.summary | default: post.excerpt | strip_html | truncate: 150 }}</p>
+    {% if post.tags %}
+    <div class="tags">{% for t in post.tags %}<span class="tag">{{ t }}</span>{% endfor %}</div>
+    {% endif %}
+    <a class="card__link" href="{{ post.url | relative_url }}">Read walkthrough →</a>
+  </article>
+  {% else %}
+  <p>No posts yet — check back soon.</p>
+  {% endfor %}
+</div>

@@ -1,0 +1,40 @@
+title: Adam Pratt
+tagline: Cloud Architect · DevOps Engineer · Developer
+description: >-
+  Adam Pratt — Cloud Architect, DevOps Engineer, and Developer.
+  Weekly Azure how-tos and lessons learned, plus a daily health research briefing.
+author: Adam Pratt
+
+# Served via the custom domain (see CNAME) at the domain root, so baseurl
+# is empty. https://learn.apnet-remote.net
+url: "https://learn.apnet-remote.net"
+baseurl: ""
+
+# Social / contact (edit handles as needed)
+social:
+  github: j00x
+  linkedin: ""
+  email: ""
+
+permalink: /azure/:year/:month/:day/:title/
+
+markdown: kramdown
+highlighter: rouge
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - docs
+  - README.md
+  - vendor
+  - .github
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
