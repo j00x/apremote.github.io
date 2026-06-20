@@ -1,0 +1,39 @@
+---
+layout: default
+title: Health
+permalink: /health/
+noindex: true
+description: A daily health research briefing.
+scripts:
+  - /assets/js/markdown.js
+  - /assets/js/health.js
+---
+
+<section class="section wrap" data-baseurl="{{ site.baseurl }}" id="health-root">
+
+  <div class="briefing-head glass">
+    <div class="briefing-head__title">
+      <h1>Daily Health Briefing</h1>
+      <span class="date-pill" id="briefing-date">—</span>
+    </div>
+    <p id="briefing-intro" class="card__body" style="margin:0;max-width:42ch"></p>
+  </div>
+
+  <div class="disclaimer glass" role="note">
+    <span aria-hidden="true">⚕️</span>
+    <span><strong>Informational only — not medical advice.</strong>
+      This briefing summarizes published research and is not a substitute for professional
+      diagnosis or treatment. Always consult a qualified healthcare provider.</span>
+  </div>
+
+  <div class="health-layout">
+    <div id="briefing-sections">
+      <div class="state-msg glass">Loading today's briefing…</div>
+    </div>
+
+    <aside class="archive glass" aria-label="Briefing archive">
+      <h3>Archive</h3>
+      <ul id="archive-list"></ul>
+    </aside>
+  </div>
+</section>
