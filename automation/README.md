@@ -18,6 +18,7 @@ Version-controlled "brains" and runners for the site's content automations. This
 | `runbooks/Publish-HealthBriefing.ps1` | Azure Automation runbook: generate the Health briefing + open a PR via the GitHub API. |
 | `../.github/workflows/publish-azure-post.yml` | GitHub Actions workflow: weekly Azure post -> review PR. |
 | `../.github/workflows/publish-health-briefing.yml` | GitHub Actions workflow: daily Health briefing -> review PR. |
+| `cursor-agent-prompts.md` | Paste-ready prompts to run both as **Cursor Agent Automations** (Option C). |
 
 Both content streams have the **same shape**: an agent instruction file + a memories file +
 a Python generator + a GitHub Actions workflow + an Azure runbook. They **open a pull request
@@ -130,3 +131,45 @@ content and open a PR via the GitHub API. Both share the same Automation setup.
    (owner/repo default to `j00x/apremote.github.io`).
 4. Import each `.ps1` as a **PowerShell runbook**, publish it, and attach a **schedule**
    (weekly for the Azure post, daily for the Health briefing).
+
+---
+
+## Option C — Cursor Agent Automation (recommended for the research)
+
+Run each automation as a **Cursor Agent Automation** (a scheduled cloud agent) instead of — or
+alongside — the Azure OpenAI generators above. **Why this is the better primary path here:** both
+agents' #1 rule is *"only cite real sources you actually found; verify URLs resolve; never
+fabricate."* A bare Azure OpenAI chat-completion (Options A/B) has **no web access**, so it can
+only produce citations from training data — i.e. it structurally cannot satisfy that rule and
+risks stale or hallucinated sources. A Cursor cloud agent has **internet + browser access by
+default** and **built-in git/PR creation**, so it can actually research, verify links, write the
+files, and open a review PR — which is almost certainly how the seed content was produced.
+
+**Setup (in Cursor, not in this repo):**
+
+1. Create an automation via the **Agents window**, **`cursor.com/automations`**, or the
+   **`/automate`** skill.
+2. **Trigger:** Scheduled — daily for the Health briefing, weekly for the Azure post (preset or a
+   cron expression).
+3. **Repository:** scope it to **`j00x/apremote.github.io`**, base branch **`main`**. (Scheduled
+   automations default to *no repository* — you must attach one so it can open a PR.)
+4. **Prompt:** paste the matching block from `automation/cursor-agent-prompts.md`. The prompt just
+   points the agent at the existing `*-agent.md` + memory files, requires web-verified sources,
+   and asks for a **review PR** (merge → Pages auto-deploys).
+
+**Trade-offs vs. Options A/B**
+
+| | Option A/B (Actions / runbook + Azure OpenAI) | Option C (Cursor Agent Automation) |
+|---|---|---|
+| Source research | ❌ no web access — fabrication risk | ✅ live web + browser, verifies URLs |
+| Config lives in repo | ✅ workflow YAML / `.ps1` committed | ❌ defined in the Cursor UI only |
+| Secrets to manage | Azure OpenAI (+ PAT for runbook) | none (uses your Cursor account) |
+| PR creation | GitHub Actions / GitHub API | built-in, signed/Verified commits |
+| Cost | Azure OpenAI tokens / Actions minutes | Cursor cloud-agent usage (Max Mode) |
+
+**Gotchas:** scheduled runs are best-effort (never early, may be slightly late) and run in Max
+Mode (per-run billing). If your team enforces a network allowlist, allowlist the research
+domains. These agents ingest untrusted web content and auto-run commands — the repo holds no
+secrets (good), and you may want to keep automation "Memories" off/curated to avoid poisoning.
+
+> You can keep Options A/B as a no-Cursor fallback, or retire them once Option C is running.
