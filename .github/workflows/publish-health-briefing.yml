@@ -1,32 +1,29 @@
-name: Publish Azure Blog Post
+name: Publish Health Briefing
 
-# Generates an Azure blog post with Azure OpenAI (following automation/azure-blog-agent.md
-# and automation/azure-memories.md) and opens a PR for review. Merge the PR to publish.
+# Generates the Daily Health Briefing with Azure OpenAI (following
+# automation/health-briefing-agent.md + automation/memories.md) and opens a PR for review.
+# Merge the PR to publish to https://learn.apnet-remote.net/apremote.github.io/health/
 #
-# Required repo secrets (Settings -> Secrets and variables -> Actions):
+# Required repo SECRETS (Settings -> Secrets and variables -> Actions -> Secrets):
 #   AZURE_OPENAI_ENDPOINT     e.g. https://my-aoai.openai.azure.com
-#   AZURE_OPENAI_API_KEY      Azure OpenAI key (or use OIDC + AAD instead)
+#   AZURE_OPENAI_API_KEY      Azure OpenAI key
 #   AZURE_OPENAI_DEPLOYMENT   the chat model deployment name (e.g. gpt-4o)
-# Optional repo variable:
+# Optional repo VARIABLE (Actions -> Variables):
 #   AZURE_OPENAI_API_VERSION  defaults to 2024-10-21
 #
 # Until the secrets above are added, scheduled runs no-op (the preflight step skips
-# generation), so the weekly schedule never produces failing runs.
+# generation), so the schedule never produces failing runs.
 
 on:
   workflow_dispatch:
     inputs:
-      category:
-        description: "Post type"
-        type: choice
-        options: [auto, how-to, lessons-learned]
-        default: auto
-      topic:
-        description: "Optional topic hint (blank = agent picks from the backlog)"
+      date:
+        description: "Briefing date (YYYY-MM-DD; blank = today, UTC)"
         required: false
         default: ""
   schedule:
-    - cron: "0 13 * * 1"   # Mondays 13:00 UTC
+    # Daily at 10:00 UTC. Adjust to land before the morning read in your timezone.
+    - cron: "0 10 * * *"
 
 permissions:
   contents: write
@@ -61,7 +58,7 @@ jobs:
         if: steps.preflight.outputs.skip != 'true'
         run: pip install -r automation/scripts/requirements.txt
 
-      - name: Generate post
+      - name: Generate briefing
         id: gen
         if: steps.preflight.outputs.skip != 'true'
         env:
@@ -69,30 +66,37 @@ jobs:
           AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
           AZURE_OPENAI_DEPLOYMENT: ${{ secrets.AZURE_OPENAI_DEPLOYMENT }}
           AZURE_OPENAI_API_VERSION: ${{ vars.AZURE_OPENAI_API_VERSION || '2024-10-21' }}
+          BRIEFING_DATE: ${{ inputs.date }}
         run: |
-          python automation/scripts/generate_azure_post.py \
-            --category "${{ inputs.category }}" \
-            --topic "${{ inputs.topic }}"
+          if [ -n "$BRIEFING_DATE" ]; then
+            python automation/scripts/generate_health_briefing.py --date "$BRIEFING_DATE"
+          else
+            python automation/scripts/generate_health_briefing.py
+          fi
 
       - name: Open pull request
         if: steps.preflight.outputs.skip != 'true'
         uses: peter-evans/create-pull-request@v7
         with:
-          branch: bot/azure-post-${{ github.run_id }}
-          title: "azure: ${{ steps.gen.outputs.title }}"
-          commit-message: "azure: add ${{ steps.gen.outputs.category }} post — ${{ steps.gen.outputs.title }}"
+          branch: bot/health-briefing-${{ github.run_id }}
+          title: "health: briefing for ${{ steps.gen.outputs.date }}"
+          commit-message: "health: add briefing for ${{ steps.gen.outputs.date }}"
           body: |
-            Automated draft from the **Azure Blog Agent**.
+            Automated draft from the **Health Briefing Agent**.
 
+            - Date: `${{ steps.gen.outputs.date }}`
             - File: `${{ steps.gen.outputs.path }}`
-            - Category: `${{ steps.gen.outputs.category }}`
+            - Sections: `${{ steps.gen.outputs.sections }}`
 
-            Review the post (and tweak as needed), then merge to publish to
-            `https://learn.apnet-remote.net/apremote.github.io/azure/`.
+            Review the briefing (verify every source resolves), then merge to publish to
+            `https://learn.apnet-remote.net/apremote.github.io/health/`.
+
+            > To publish daily with no review, switch this workflow to commit straight to
+            > `main` instead of opening a PR (see `automation/README.md`).
           add-paths: |
-            _posts/**
-            automation/azure-memories.md
+            health/briefings/**
+            health/index.json
           labels: |
             automated
-            azure-blog
+            health-briefing
           draft: true

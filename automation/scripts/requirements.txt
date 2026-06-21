@@ -1,2 +1,4 @@
-# Dependencies for automation/scripts/generate_azure_post.py
+# Dependencies for the content generators:
+#   automation/scripts/generate_azure_post.py
+#   automation/scripts/generate_health_briefing.py
 openai>=1.40.0
