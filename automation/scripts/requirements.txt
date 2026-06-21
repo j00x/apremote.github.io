@@ -1,0 +1,2 @@
+# Dependencies for automation/scripts/generate_azure_post.py
+openai>=1.40.0

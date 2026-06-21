@@ -1,0 +1,80 @@
+name: Publish Azure Blog Post
+
+# Generates an Azure blog post with Azure OpenAI (following automation/azure-blog-agent.md
+# and automation/azure-memories.md) and opens a PR for review. Merge the PR to publish.
+#
+# Required repo secrets (Settings -> Secrets and variables -> Actions):
+#   AZURE_OPENAI_ENDPOINT     e.g. https://my-aoai.openai.azure.com
+#   AZURE_OPENAI_API_KEY      Azure OpenAI key (or use OIDC + AAD instead)
+#   AZURE_OPENAI_DEPLOYMENT   the chat model deployment name (e.g. gpt-4o)
+# Optional repo variable:
+#   AZURE_OPENAI_API_VERSION  defaults to 2024-10-21
+
+on:
+  workflow_dispatch:
+    inputs:
+      category:
+        description: "Post type"
+        type: choice
+        options: [auto, how-to, lessons-learned]
+        default: auto
+      topic:
+        description: "Optional topic hint (blank = agent picks from the backlog)"
+        required: false
+        default: ""
+  # Weekly cadence — uncomment after adding the secrets above.
+  # schedule:
+  #   - cron: "0 13 * * 1"   # Mondays 13:00 UTC
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate-and-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r automation/scripts/requirements.txt
+
+      - name: Generate post
+        id: gen
+        env:
+          AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
+          AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
+          AZURE_OPENAI_DEPLOYMENT: ${{ secrets.AZURE_OPENAI_DEPLOYMENT }}
+          AZURE_OPENAI_API_VERSION: ${{ vars.AZURE_OPENAI_API_VERSION || '2024-10-21' }}
+        run: |
+          python automation/scripts/generate_azure_post.py \
+            --category "${{ inputs.category }}" \
+            --topic "${{ inputs.topic }}"
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/azure-post-${{ github.run_id }}
+          title: "azure: ${{ steps.gen.outputs.title }}"
+          commit-message: "azure: add ${{ steps.gen.outputs.category }} post — ${{ steps.gen.outputs.title }}"
+          body: |
+            Automated draft from the **Azure Blog Agent**.
+
+            - File: `${{ steps.gen.outputs.path }}`
+            - Category: `${{ steps.gen.outputs.category }}`
+
+            Review the post (and tweak as needed), then merge to publish to
+            `https://learn.apnet-remote.net/apremote.github.io/azure/`.
+          add-paths: |
+            _posts/**
+            automation/azure-memories.md
+          labels: |
+            automated
+            azure-blog
+          draft: true

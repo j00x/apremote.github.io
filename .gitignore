@@ -4,3 +4,7 @@ _site/
 .sass-cache/
 vendor/
 Gemfile.lock
+
+# Python
+__pycache__/
+*.pyc
