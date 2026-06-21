@@ -1,0 +1,72 @@
+{
+  "date": "2026-06-21",
+  "title": "Daily Health Briefing",
+  "intro": "Pipeline test stub — replace with researched content from the Health Briefing agent.",
+  "sections": [
+    {
+      "topic": "Anti-Aging",
+      "icon": "sparkle",
+      "body": "This is a **dry-run stub** for automation pipeline validation. Scheduled agents should replace this with web-researched summaries and verified sources.",
+      "sources": [
+        {
+          "title": "PubMed",
+          "publisher": "NIH",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "date": "2026"
+        }
+      ]
+    },
+    {
+      "topic": "HIIT Workouts for Women",
+      "icon": "bolt",
+      "body": "Stub section for pipeline validation.",
+      "sources": [
+        {
+          "title": "Physical Activity Guidelines for Americans",
+          "publisher": "NIH",
+          "url": "https://health.gov/our-work/nutrition-physical-activity/physical-activity-guidelines",
+          "date": "2026"
+        }
+      ]
+    },
+    {
+      "topic": "Pelvic Floor Exercises",
+      "icon": "anchor",
+      "body": "Stub section for pipeline validation.",
+      "sources": [
+        {
+          "title": "Pelvic floor muscle training exercises",
+          "publisher": "NIH",
+          "url": "https://www.nichd.nih.gov/health/topics/pelvicfloor",
+          "date": "2026"
+        }
+      ]
+    },
+    {
+      "topic": "Alternative Cancer Treatments",
+      "icon": "ribbon",
+      "body": "Stub section for pipeline validation. Discuss any treatment options with a clinician — this is not medical advice.",
+      "sources": [
+        {
+          "title": "Breast Cancer",
+          "publisher": "NIH",
+          "url": "https://www.cancer.gov/types/breast",
+          "date": "2026"
+        }
+      ]
+    },
+    {
+      "topic": "Sleep — Studies & Best Practices",
+      "icon": "moon",
+      "body": "Stub section for pipeline validation.",
+      "sources": [
+        {
+          "title": "Sleep Disorders",
+          "publisher": "NIH",
+          "url": "https://www.nhlbi.nih.gov/health/sleep-disorders",
+          "date": "2026"
+        }
+      ]
+    }
+  ]
+}

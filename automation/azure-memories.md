@@ -76,6 +76,7 @@ Pull from here, then move shipped items to the running log. Add new ideas any ti
 
 ## Running log (append shipped posts here)
 
+- **2026-06-21** — `how-to`: "Dry Run Sample Post" (`_posts/2026-06-21-dry-run-sample-post.md`).
 - **2026-06-20** — `how-to`: "Azure Landing Zones: A Pragmatic Quickstart"
   (`_posts/2026-06-20-azure-landing-zones-quickstart.md`).
 - **2026-06-13** — `lessons-learned`: "Scaling Bicep Modules Without the Pain"

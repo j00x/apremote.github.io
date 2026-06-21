@@ -1,0 +1,26 @@
+{
+  "name": "Azure blog post (weekly)",
+  "description": "Weekly Azure blog post for j00x/apremote.github.io — web research, writes _posts/*.md, updates azure-memories.md, opens a review PR.",
+  "workflow": {
+    "triggers": [
+      {
+        "cron": {
+          "cron": "0 13 * * 1"
+        }
+      }
+    ],
+    "actions": [],
+    "prompts": [
+      "You are the Azure Blog agent for the repo j00x/apremote.github.io.\n\n1. Read automation/azure-blog-agent.md and automation/azure-memories.md and follow them exactly\n   (post types, voice, front-matter contract, and the running log / topic backlog).\n2. Pick ONE topic from the backlog that is NOT already in the running log, alternating\n   how-to / lessons-learned based on the most recent shipped post. Confirm it isn't a duplicate\n   by checking _posts/ and the running log.\n3. Research the WEB to keep the post technically correct and current — use real Azure resource\n   types, current API versions, and valid CLI/Bicep; cite Microsoft Learn / Azure Architecture\n   Center where it helps and VERIFY links resolve. Never embed secrets; prefer managed identity\n   + Key Vault + least privilege.\n4. Write _posts/<YYYY-MM-DD>-<slug>.md with valid front matter (title, category, tags, summary)\n   and a Markdown body with language-tagged, runnable code blocks and a wrap-up.\n5. Validate with `bundle exec jekyll build` (must succeed). Append the post to the running log\n   in automation/azure-memories.md so it isn't repeated.\n6. Open a pull request titled \"azure: <title>\" with the post and the memories update. Do NOT\n   push directly to main — posts are reviewed before publishing."
+    ],
+    "model": "",
+    "agentOptions": {
+      "skipInstall": false
+    },
+    "memoryEnabled": false,
+    "gitConfig": {
+      "repo": "j00x/apremote.github.io",
+      "branch": "main"
+    }
+  }
+}

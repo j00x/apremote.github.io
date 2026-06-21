@@ -19,6 +19,7 @@ Version-controlled "brains" and runners for the site's content automations. This
 | `../.github/workflows/publish-azure-post.yml` | GitHub Actions workflow: weekly Azure post -> review PR. |
 | `../.github/workflows/publish-health-briefing.yml` | GitHub Actions workflow: daily Health briefing -> review PR. |
 | `cursor-agent-prompts.md` | Paste-ready prompts to run both as **Cursor Agent Automations** (Option C). |
+| `cursor-automation-prefills/` | JSON payloads for the Cursor Automations editor (`azure-weekly.json`, `health-daily.json`). |
 
 Both content streams have the **same shape**: an agent instruction file + a memories file +
 a Python generator + a GitHub Actions workflow + an Azure runbook. They **open a pull request
