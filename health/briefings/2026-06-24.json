@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-24",
+  "title": "Daily Health Briefing",
+  "intro": "Good morning! Today's digest leans on fresh 2026 trials and meta-analyses across your tracked topics — including new rapamycin/senolytic data, a 2026 HIIT meta-analysis, two 2026 pelvic-floor RCTs, the published NEJM rezatapopt results, and the latest on sleep. Sources are linked as chips.",
+  "sections": [
+    {
+      "topic": "Anti-Aging",
+      "icon": "sparkle",
+      "body": "The longevity-drug story got more sober in 2026. The new **RAPA-EX-01** randomized, double-blind, placebo-controlled trial (40 sedentary adults aged 65–85, 6 mg once-weekly sirolimus vs placebo alongside a 13-week home exercise program) found rapamycin **did not enhance — and may have slightly blunted — training gains**, while adding more adverse events. The authors' takeaway: regular physical activity remains the first-line strategy for preserving function.\n\nA 2026 review in *Aging-US* reached a similar conclusion: despite strong animal data, there is **no clear clinical evidence** that low-dose rapamycin extends healthspan or slows aging in healthy adults — larger, better-designed human trials are needed (two big NIH/ARPA-H–funded multi-year RCTs are now underway).\n\n**Senolytics** (e.g. dasatinib + quercetin, fisetin) remain proof-of-concept: as of 2026 most trials are still Phase 1/2 with modest human effect sizes, and **no senolytic is FDA-approved** for any aging indication.\n\n- Treat single-drug \"longevity\" claims with skepticism — the human evidence isn't there yet.\n- Exercise still beats every pharmacologic shortcut studied to date.",
+      "sources": [
+        { "title": "Exercise and Weekly Sirolimus (Rapamycin) in Older Adults: RAPA-EX-01 Randomised, Double-Blind, Placebo-Controlled Trial", "publisher": "PMC", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13082878/", "date": "2026" },
+        { "title": "Rapamycin Shows Limited Evidence for Longevity Benefits in Healthy Adults", "publisher": "Aging-US", "url": "https://www.aging-us.com/news-room/rapamycin-shows-limited-evidence-for-longevity-benefits-in-healthy-adults", "date": "2026" },
+        { "title": "Bench to bedside: is rapamycin headed for the docTOR?", "publisher": "GeroScience", "url": "https://link.springer.com/article/10.1007/s11357-026-02306-8", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "HIIT Workouts for Women",
+      "icon": "bolt",
+      "body": "A new **2026 systematic review and meta-analysis** (19 RCTs) in *Frontiers in Physiology* gives the clearest picture yet for middle-aged and older women:\n\n- HIIT produced a **large, high-certainty improvement in cardiorespiratory fitness** (VO2max; SMD = 1.20, 95% CI 0.86–1.54), consistent across age, body-mass status, and program length.\n- But HIIT **alone did not significantly improve muscle strength, flexibility, or sit-to-stand**, with only borderline gains in walking ability.\n- Conclusion: HIIT is excellent for the heart and lungs, but **insufficient on its own** for overall physical function.\n\nA 2026 network meta-analysis in women with **PCOS** echoed this — HIIT ranked best for VO2max, fasting insulin, and LDL cholesterol, while moderate-intensity training edged it out for insulin resistance (HOMA-IR).\n\nPractical takeaway: keep the intervals for cardio and metabolic health, but **pair them with resistance (and balance) training** to protect strength and function.",
+      "sources": [
+        { "title": "Effects of HIIT on cardiopulmonary fitness and physical function in middle-aged and elderly women: a systematic review & meta-analysis", "publisher": "Frontiers in Physiology", "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1778052/full", "date": "2026" },
+        { "title": "Comparative cardiometabolic effects of high, moderate, and low intensity exercise in PCOS: a network meta-analysis of RCTs", "publisher": "BMC Women's Health", "url": "https://link.springer.com/article/10.1186/s12905-025-04201-4", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "Pelvic Floor Exercises",
+      "icon": "anchor",
+      "body": "Two **2026 randomized trials** reinforce pelvic floor muscle training (PFMT) as a high-value, low-risk first-line tool.\n\n- **JAMA Network Open (Apr 2026):** the *PEFLOW* multicenter RCT (764 first-time mothers across 9 hospitals) found a structured prenatal pelvic-floor program **cut stress urinary incontinence at 6 weeks postpartum to 8.7% vs 13.9%** in controls, and more than doubled the share of women with strong pelvic-floor contractions.\n- **Int. Urogynecology Journal (2026):** in women with stress incontinence awaiting surgery, a 6-week **intensive preoperative PFMT** program significantly improved muscle strength and symptom severity (large effect sizes, d ≈ 0.85–0.90) — and **43% postponed their planned surgery**.\n\nThe latest Cochrane evidence adds nuance: **direct, isolated, voluntary contractions** beat indirect approaches, and **supervised group vs individual delivery makes little difference**. Biofeedback/e-stim are optional add-ons, not requirements.\n\nKey point: *correct technique + consistency* drives results — and starting in pregnancy can prevent problems later.",
+      "sources": [
+        { "title": "Pelvic Floor Workout (PEFLOW) for Preventing Stress Urinary Incontinence in Primiparous Women: A Randomized Clinical Trial", "publisher": "JAMA Network Open", "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2847774", "date": "2026" },
+        { "title": "Effectiveness of Intensive Preoperative Pelvic Floor Muscle Training in Women with Stress Urinary Incontinence Awaiting Surgery: An RCT", "publisher": "Int Urogynecology Journal", "url": "https://link.springer.com/article/10.1007/s00192-026-06559-x", "date": "2026" },
+        { "title": "Comparisons of approaches to pelvic floor muscle training for urinary incontinence in women (Cochrane Review)", "publisher": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/39704322/", "date": "2024" }
+      ]
+    },
+    {
+      "topic": "Alternative Cancer Treatments",
+      "icon": "ribbon",
+      "body": "For **TP53 / p53-mutant** cancers, the big update is that **rezatapopt (PC14586)** — the first-in-class oral p53 reactivator selective for the **TP53 Y220C** mutation — now has **published Phase 1 results in the *New England Journal of Medicine* (Feb 2026)**. In a heavily pretreated population it produced objective responses across tumor types: ORR ~43% in ovarian, **18% in breast**, 60% in endometrial, and ~22% in lung cancer. The pivotal **PYNNACLE Phase 2** basket trial (incl. dedicated breast cohorts spanning HER2+, HER2−, and triple-negative) is enrolling, with primary completion estimated Aug 2026.\n\nFor **HER2-positive breast cancer with co-existing TP53 mutations** (a tougher, faster-growing subtype), new preclinical work shows these co-mutant tumors have increased histone acetylation that **sensitizes them to trastuzumab deruxtecan (T-DXd)**, and that **neratinib + T-DXd** is highly effective in mouse models — a combination now in an early-phase NCI trial (NCT05372614).\n\nImportant framing: \"alternative\" here means **emerging, evidence-based, trial-based** options to discuss with an oncologist — not replacements for standard care. p53 remains historically \"undruggable,\" so these mutation-specific advances are genuinely notable.",
+      "sources": [
+        { "title": "Rezatapopt, a p53 Reactivator, in TP53 Y220C-Mutated Tumors (NEJM 2026;394:872-883)", "publisher": "NEJM", "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2508820", "date": "2026" },
+        { "title": "PYNNACLE: rezatapopt (PC14586) monotherapy in TP53 Y220C-mutated solid tumors (NCT04585750)", "publisher": "ClinicalTrials.gov", "url": "https://clinicaltrials.gov/study/NCT04585750", "date": "2026" },
+        { "title": "HER2;p53 Co-mutated Cancers Show Increased Histone Acetylation and Are Sensitive to Neratinib plus Trastuzumab Deruxtecan", "publisher": "PMC", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12265670/", "date": "2025" }
+      ]
+    },
+    {
+      "topic": "Sleep — Studies & Best Practices",
+      "icon": "moon",
+      "body": "The 2026 consensus still puts **behavior ahead of supplements** for restless or disjointed sleep.\n\n- **CBT-I (cognitive behavioral therapy for insomnia)** remains the guideline-recommended first-line treatment (AASM 2021, ACP). It improves sleep efficiency ~8–16% with large, durable effects — roughly **5–7× more effective than supplements**, and gains persist long after treatment ends.\n- **Magnesium bisglycinate:** the best-designed modern RCT (Schuster 2025) showed only a **small effect (d ≈ 0.2)** on insomnia severity — ~3.9-point ISI drop vs ~2.3 for placebo, i.e. a real but **not clinically meaningful** ~1.6-point net benefit. Reasonable to try; not a cure.\n- **Melatonin:** AASM advises **against routine use for chronic insomnia**; it's best for circadian problems (jet lag, shift work) at low doses (0.5–3 mg). Note: a JAMA analysis found OTC melatonin content ranged −83% to +478% vs label — buy USP/NSF-verified.\n- For chronic insomnia needing medication, the **DORA class** (daridorexant, lemborexant, suvorexant) and low-dose doxepin rank above any supplement in the evidence hierarchy.\n\nBest-practice habits:\n\n1. Fixed **wake time**, 7 days/week.\n2. Bed for **sleep only**; keep the room cool, dark, quiet.\n3. Dim lights and cut screens during a wind-down window.\n4. Persistent problems? See a provider to rule out sleep apnea and consider CBT-I (digital CBT-I works when in-person access is limited).",
+      "sources": [
+        { "title": "Cognitive Behavioral Therapy for Chronic Insomnia: A Systematic Review and Meta-analysis", "publisher": "Annals of Internal Medicine", "url": "https://www.acpjournals.org/doi/10.7326/M14-2841", "date": "2015" },
+        { "title": "Magnesium Bisglycinate Supplementation in Adults Reporting Poor Sleep: a randomized, placebo-controlled trial (Schuster 2025)", "publisher": "Nature and Science of Sleep", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12412596/", "date": "2025" },
+        { "title": "AASM: Missing the mark with melatonin — finding the best treatment for insomnia", "publisher": "AASM", "url": "https://aasm.org/missing-the-mark-melatonin-finding-best-treatment-insomnia/", "date": "2025" }
+      ]
+    }
+  ]
+}
