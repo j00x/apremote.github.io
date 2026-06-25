@@ -1,0 +1,58 @@
+{
+  "date": "2026-06-25",
+  "title": "Daily Health Briefing",
+  "intro": "Good morning! Here's today's research digest across your tracked topics. Each section summarizes recent, reputable findings — sources are linked as chips. Informational only, not medical advice.",
+  "sections": [
+    {
+      "topic": "Anti-Aging",
+      "icon": "sparkle",
+      "body": "**Low-dose rapamycin** is the most clinically advanced \"geroprotector\" right now, and the signal is sex-specific. The **PEARL trial** — a 48-week, decentralized, double-blind, placebo-controlled RCT of intermittent compounded rapamycin (5 or 10 mg/week) in healthy, normal-aging adults — found the regimen *safe* over a year (adverse events similar to placebo; biomarkers stayed in normal range). The **primary endpoint, visceral fat, did not change**, but **women on 10 mg/week saw significant gains in lean muscle mass and reductions in self-reported pain**, and 5 mg/week improved self-reported well-being. These are small-sample secondary findings — promising, not proof.\n\nWhat's coming next:\n\n- **RESTOR** (UT Health San Antonio), a first-in-human mTOR-inhibitor dose-finding study of rapamycin vs. everolimus in older adults, *started March 2026* and is explicitly designed to find **separate optimal doses for women and men** — a welcome shift, since most longevity dosing has been one-size-fits-all.\n- An **NMN (NAD+ precursor) sustained-release RCT** (1,000 mg/day, 26 weeks) is recruiting adults 50–70 to test effects on immune aging, metabolism, and telomere length.\n\nTakeaway: favor interventions with human RCT data (rapamycin leads, but is still investigational and prescription-only), and treat single-supplement \"longevity\" claims with healthy skepticism.",
+      "sources": [
+        { "title": "Influence of rapamycin on safety and healthspan metrics after one year: PEARL trial results", "publisher": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/40188830/", "date": "2025" },
+        { "title": "PEARL trial results — full text", "publisher": "Aging (Aging-US)", "url": "https://www.aging-us.com/article/206235/text", "date": "2025" },
+        { "title": "RESTOR: PK/PD mTORi Inhibition in Older Adults (NCT06658093)", "publisher": "ClinicalTrials.gov", "url": "https://clinicaltrials.gov/study/NCT06658093", "date": "2026" },
+        { "title": "NMN sustained-release tablets on immunosenescence and metabolism (NCT06907329)", "publisher": "ClinicalTrials.gov", "url": "https://clinicaltrials.gov/study/NCT06907329", "date": "2025" }
+      ]
+    },
+    {
+      "topic": "HIIT Workouts for Women",
+      "icon": "bolt",
+      "body": "A **new 2026 systematic review and meta-analysis** (19 RCTs) in middle-aged and older women is the headline: HIIT **significantly improves cardiorespiratory fitness (VO2max, SMD = 1.20, high certainty of evidence)** across age groups, body-mass status, and program durations. But the same review found **little to no effect on muscle strength, flexibility, or sit-to-stand performance** (walking ability only borderline). The authors' conclusion is important: *HIIT alone is not enough to improve overall physical function* — pair it with **resistance and balance training**.\n\nSupporting evidence:\n\n- A 2025 meta-analysis in *recreationally active* women confirmed HIIT raises VO2max/VO2peak and produces a **small reduction in body-fat percentage**, but **does not significantly change total body mass** — set expectations on the scale accordingly.\n- For women with **PCOS**, a 2025 meta-analysis found **no significant advantage of HIIT over moderate continuous training** for body composition, fitness, or hormones — so pick the modality you'll actually stick with.\n\nPractical note: intensity is the active ingredient, but ramp volume gradually and treat HIIT as the *cardio* pillar within a broader, multimodal routine.",
+      "sources": [
+        { "title": "Effects of HIIT on cardiopulmonary fitness and physical function in middle-aged and elderly women: systematic review & meta-analysis", "publisher": "Frontiers in Physiology", "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1778052/full", "date": "2026" },
+        { "title": "Effects of HIIT on physical fitness and body composition in recreationally active females: systematic review & meta-analysis", "publisher": "Scientific Reports", "url": "https://www.nature.com/articles/s41598-025-11809-x", "date": "2025" },
+        { "title": "HIIT vs. moderate-intensity continuous training for PCOS: meta-analysis of RCTs", "publisher": "Frontiers in Endocrinology", "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2025.1672257/full", "date": "2025" }
+      ]
+    },
+    {
+      "topic": "Pelvic Floor Exercises",
+      "icon": "anchor",
+      "body": "**Pelvic floor muscle training (PFMT)** remains the evidence-based, first-line conservative treatment — and two fresh 2026 papers sharpen *how* to do it.\n\n- A **2026 RCT** in women with stress urinary incontinence awaiting surgery tested a structured **6-week intensive preoperative PFMT** program vs. education alone. The training group had large improvements in muscle strength (Modified Oxford, *d* = 0.85) and symptom severity (Incontinence Severity Index, *d* = 0.90) — and remarkably, **43% postponed their planned surgery** afterward. PFMT can be a genuine surgery-sparing first step.\n- A **2026 network meta-analysis** (49 RCTs, 5,432 postpartum women) ranked combinations: **PFMT + vaginal weights** was best for reducing actual leakage and building strength, while **PFMT + biofeedback + electrical stimulation** led for quality-of-life gains. Plain PFMT works; adding resistance/feedback tools adds measurable benefit.\n\nThe long-running caveat (Cochrane): benefits are strongest with **supervised programs of at least ~3 months**, and gains can fade without ongoing practice. **Correct activation and consistency** matter more than raw rep counts — confirm technique with a clinician or biofeedback.",
+      "sources": [
+        { "title": "Effectiveness of Intensive Preoperative PFMT in Women with Stress Urinary Incontinence Awaiting Surgery: an RCT", "publisher": "Int Urogynecology Journal", "url": "https://link.springer.com/article/10.1007/s00192-026-06559-x", "date": "2026" },
+        { "title": "Exercise interventions for postpartum stress urinary incontinence: systematic review & network meta-analysis", "publisher": "Frontiers in Medicine", "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1795125/full", "date": "2026" },
+        { "title": "Comparisons of approaches to pelvic floor muscle training for urinary incontinence in women", "publisher": "Cochrane Library", "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD009508.pub2/abstract", "date": "2024" }
+      ]
+    },
+    {
+      "topic": "Alternative Cancer Treatments",
+      "icon": "ribbon",
+      "body": "A notable **2025 study directly addresses the HER2+ / TP53 (p53) intersection** you track. In metastatic breast cancer, **HER2-activating mutations frequently co-occur with TP53 mutations**, a pairing linked to worse prognosis and **resistance to the HER2 kinase inhibitor neratinib**. Using new co-mutant mouse models, researchers found these tumors develop **increased histone acetylation and open chromatin**, which makes them **especially sensitive to topoisomerase-I (TOP1) inhibition** — the *exatecan/deruxtecan payload* inside the antibody-drug conjugate **trastuzumab deruxtecan (T-DXd)**. Combining **neratinib + T-DXd** was highly effective preclinically, suggesting the p53 mutation creates an exploitable vulnerability rather than just a resistance problem.\n\nTranslation status: the **neratinib + T-DXd combination is in a Phase I trial (NCI 10495 / NCT05372614)** in HER2-altered solid tumors; Part 2 opened in 2025 and reported a manageable safety profile with early signals of activity, though the trial is **currently listed as suspended for correlative sample analysis** — so this is still early, investigational science.\n\nImportant framing: \"alternative\" here means **evidence-based, oncologist-directed** options (and clinical trials) — not replacements for standard care. p53 itself remains largely \"undruggable,\" so strategies that target its *downstream vulnerabilities* are the realistic near-term path.",
+      "sources": [
+        { "title": "HER2; p53 Co-mutated Cancers Show Increased Histone Acetylation and are Sensitive to Neratinib plus Trastuzumab Deruxtecan", "publisher": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/40672227/", "date": "2025" },
+        { "title": "HER2; p53 Co-mutated Cancers — full text", "publisher": "PMC (NIH)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12265670/", "date": "2025" },
+        { "title": "Trastuzumab Deruxtecan + Neratinib for cancers with HER2 gene changes (NCI 10495 / NCT05372614)", "publisher": "ClinicalTrials.gov", "url": "https://clinicaltrials.gov/study/NCT05372614", "date": "2025" }
+      ]
+    },
+    {
+      "topic": "Sleep — Studies & Best Practices",
+      "icon": "moon",
+      "body": "For **restless or disjointed sleep**, the evidence hierarchy hasn't moved: **behavior beats pills**. A network meta-analysis of RCTs comparing melatonin, light exposure, exercise, and complementary therapies concluded that **none were superior to CBT-I** (cognitive behavioral therapy for insomnia), which remains the guideline-recommended first-line treatment. Within that review, **melatonin helped mainly with sleep-*onset* difficulty**, and **meditative movement therapies** (yoga/tai chi/mindfulness) improved self-reported sleep efficiency and insomnia severity.\n\nOn the supplements you asked about:\n\n- **Magnesium**: evidence for insomnia is mixed and modest; its clearest sleep-relevant benefit is **relieving nighttime leg cramps** that fragment sleep. A head-to-head **RCT (NCT06996171)** is now comparing **magnesium glycinate 500 mg vs. melatonin 10 mg** in young adults with primary insomnia — worth watching for direct comparison data.\n- **Melatonin**: best for circadian problems (jet lag, shift work) and sleep onset; low doses usually suffice, and it's not a cure for chronic insomnia.\n\nBest-practice habits for *disjointed* sleep:\n\n1. Fixed **wake time**, even on weekends, to anchor your circadian rhythm.\n2. Reserve the bed **for sleep only**; keep the room cool, dark, and quiet.\n3. A genuine **wind-down window** — dim lights, cut screens — before bed.\n4. If fragmentation persists, see a provider to rule out **sleep apnea / restless legs** and consider **CBT-I** before long-term sleep aids.",
+      "sources": [
+        { "title": "Network Meta-Analysis of RCTs: Melatonin, Light, Exercise & CAM vs. CBT-I for Insomnia Disorder", "publisher": "PMC (NIH)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7356922/", "date": "2020" },
+        { "title": "Comparative Efficacy of Magnesium Supplement and Melatonin in Young Adults With Primary Insomnia (NCT06996171)", "publisher": "ClinicalTrials.gov", "url": "https://clinicaltrials.gov/study/NCT06996171", "date": "2025" },
+        { "title": "Supplements for Sleep — what the evidence supports (magnesium vs. melatonin)", "publisher": "GoodRx Health", "url": "https://www.goodrx.com/conditions/insomnia/supplements-for-sleep", "date": "2025" }
+      ]
+    }
+  ]
+}
