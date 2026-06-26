@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-26",
+  "title": "Daily Health Briefing",
+  "intro": "Good morning! Here's today's research digest across your tracked topics — fresh findings from peer-reviewed journals and clinical-trial registries, with sources linked as chips.",
+  "sections": [
+    {
+      "topic": "Anti-Aging",
+      "icon": "sparkle",
+      "body": "**Rapamycin (mTOR inhibition)** is having a moment in the trial pipeline, but the human evidence still hasn't caught up to the hype.\n\n- A March 2026 launch from **UT Health San Antonio** (NIA-funded **RESTOR**, NCT06658093) is a first-in-human pharmacology study in adults 65–90. Notably, it explicitly expects the *optimal dose to differ between women and men* and is dosing the sexes independently — a welcome correction to the male-dominated longevity literature.\n- A 2025 review in *Aging-US* analyzing the off-label rapamycin evidence concluded there is **no clear clinical proof** that low-dose rapamycin slows aging or extends healthspan in healthy adults — animal results haven't translated yet.\n- A 2026 *GeroScience* \"bench to bedside\" review reaches a similar verdict: the completed **PEARL** trial found rapamycin well tolerated over a year but with only modest biomarker changes (and *no* effect on its primary endpoint, visceral fat); a separate exercise study (RAPA-EX-01) found weekly rapamycin did **not** enhance — and may have blunted — exercise gains in older adults.\n\nTakeaway: the most rigorous trials yet are now enrolling, but for today, rapamycin remains *promising-but-unproven*. Favor sex-specific data and human RCTs over animal-model extrapolation.",
+      "sources": [
+        { "title": "UT Health San Antonio launches clinical trial to study rapamycin and healthy aging (RESTOR, NCT06658093)", "publisher": "UT Health San Antonio", "url": "https://news.uthscsa.edu/ut-health-san-antonio-launches-clinical-trial-to-study-rapamycin-and-healthy-aging/", "date": "2026" },
+        { "title": "What is the clinical evidence to support off-label rapamycin therapy in healthy adults?", "publisher": "Aging-US", "url": "https://www.aging-us.com/news-room/rapamycin-shows-limited-evidence-for-longevity-benefits-in-healthy-adults", "date": "2025" },
+        { "title": "Bench to bedside: is rapamycin headed for the docTOR?", "publisher": "GeroScience", "url": "https://link.springer.com/article/10.1007/s11357-026-02306-8", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "HIIT Workouts for Women",
+      "icon": "bolt",
+      "body": "New 2026 evidence reinforces HIIT as a **time-efficient** way to raise cardiorespiratory fitness in women — while tempering expectations on strength.\n\n- A **2026 systematic review & meta-analysis** (19 RCTs) in *middle-aged and older women* found HIIT significantly improved **VO2max** (SMD 1.20, *high* certainty of evidence), with consistent gains across age, body-mass status, and program length. It did **not** significantly improve muscle strength on its own — pair HIIT with resistance work if strength is a goal.\n- A 2025 meta-analysis in *recreationally active females* found a significant **reduction in body-fat percentage** and improved cardiorespiratory fitness, though body mass and absolute fat mass changed little — composition shifts more than the scale.\n- A 2025 trial of an **8-week bodyweight HIIT** program in young women with overweight reported meaningful improvements in body composition and a notably better lipid profile (lower LDL/triglycerides, higher HDL).\n\nPractical note: intensity is the active ingredient and ~8–12 weeks is a reasonable horizon. Layer in 2x/week resistance training for muscle and metabolic benefit.",
+      "sources": [
+        { "title": "Effects of HIIT on cardiopulmonary fitness and physical function in middle-aged and elderly women: systematic review & meta-analysis", "publisher": "Frontiers in Physiology", "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1778052/full", "date": "2026" },
+        { "title": "Effects of HIIT on physical fitness and body composition in recreationally active females: systematic review & meta-analysis", "publisher": "Scientific Reports", "url": "https://www.nature.com/articles/s41598-025-11809-x", "date": "2025" },
+        { "title": "Impact of an 8-week high-intensity bodyweight interval training on body composition and blood lipid metabolism in young women with overweight", "publisher": "Frontiers in Public Health", "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1578569/full", "date": "2025" }
+      ]
+    },
+    {
+      "topic": "Pelvic Floor Exercises",
+      "icon": "anchor",
+      "body": "Two fresh 2026 randomized trials strengthen the case for **pelvic floor muscle training (PFMT)** as first-line, low-risk care — and one shows it can even change surgical plans.\n\n- *International Urogynecology Journal* (2026): a **6-week intensive preoperative PFMT** program in women with stress urinary incontinence (SUI) awaiting sling surgery significantly improved muscle strength (Modified Oxford, *d* = 0.85) and symptom severity (ISI, *d* = 0.90). Strikingly, **43% of participants postponed their planned surgery** afterward.\n- *JAMA Network Open* (April 2026): the multicenter **PEFLOW** RCT (764 first-time mothers across 9 hospitals) found a structured prenatal pelvic-floor workout cut postpartum SUI at 6 weeks (**8.7% vs 13.9%**) and more than doubled the share of women with strong pelvic-floor muscles.\n- A 2026 RCT in *J. Clin. Med.* found **PFMT + core stabilization exercises** beat PFMT alone for urinary symptoms in women with chronic low-back pain.\n\nKey point: correct activation and consistency drive results. Combining PFMT with core/stabilization work — and starting *before* surgery or birth — appears to add real benefit.",
+      "sources": [
+        { "title": "Effectiveness of Intensive Preoperative Pelvic Floor Muscle Training in Women with Stress Urinary Incontinence Awaiting Surgery: an RCT", "publisher": "Int Urogynecol J", "url": "https://link.springer.com/article/10.1007/s00192-026-06559-x", "date": "2026" },
+        { "title": "Pelvic Floor Workout for Preventing Stress Urinary Incontinence in Primiparous Women (PEFLOW): a Randomized Clinical Trial", "publisher": "JAMA Network Open", "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2847774", "date": "2026" },
+        { "title": "Effects of Stabilization Exercises and Pelvic Floor Muscle Training on Urinary Parameters in Chronic Low Back Pain: an RCT", "publisher": "J. Clin. Med. (MDPI)", "url": "https://www.mdpi.com/2077-0383/15/6/2333", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "Alternative Cancer Treatments",
+      "icon": "ribbon",
+      "body": "Big regulatory news for **HER2-positive breast cancer**, plus a promising angle for **TP53/p53-mutant** tumors.\n\n- The FDA (2026) **approved ENHERTU (trastuzumab deruxtecan, T-DXd)** for *early* HER2-positive breast cancer in two new settings — **neoadjuvant** (followed by taxane + trastuzumab + pertuzumab) and **adjuvant** for residual disease after standard therapy — based on the phase 3 **DESTINY-Breast11** and **DESTINY-Breast05** trials. This moves the powerful antibody-drug conjugate earlier in the treatment course.\n- On the **p53 front**, p53 itself is still considered \"undruggable,\" but a 2025 study offers a workaround for **HER2;TP53 co-mutated** cancers (a combo historically linked to poor prognosis and neratinib resistance): these tumors show increased chromatin accessibility that makes them **sensitive to the TOP1-inhibitor payload in T-DXd**. A phase 1 trial of **neratinib + T-DXd** (NCT05372614) is testing this directly.\n- Reassuring biomarker data from DESTINY-Breast03 also show T-DXd keeps its edge **regardless of TP53 status**.\n\nImportant framing: \"alternative\" here means **evidence-based** options to discuss with an oncologist — not replacements for standard care.",
+      "sources": [
+        { "title": "ENHERTU approved in the US for two new indications in HER2-positive early breast cancer (DESTINY-Breast11 & -05)", "publisher": "AstraZeneca", "url": "https://www.astrazeneca.com/content/az-us/media/press-releases/2026/ENHERTU-fam-trastuzumab-deruxtecan-nxki-approved-in-the-US-for-two-new-indications-for-patients-with-HER2-positive-early-breast-cancer.html", "date": "2026" },
+        { "title": "HER2;p53 Co-mutated Cancers Show Increased Histone Acetylation and are Sensitive to Neratinib plus Trastuzumab Deruxtecan", "publisher": "PMC", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12265670/", "date": "2025" },
+        { "title": "Neratinib + Trastuzumab Deruxtecan in HER2-altered breast cancer (phase 1, NCI ETCTN 10495)", "publisher": "ClinicalTrials.gov", "url": "https://clinicaltrials.gov/study/NCT05372614", "date": "2025" }
+      ]
+    },
+    {
+      "topic": "Sleep — Studies & Best Practices",
+      "icon": "moon",
+      "body": "The 2026 evidence keeps pointing the same direction: **behavioral therapy first, supplements as modest adjuncts.**\n\n- A **2026 network meta-analysis** in middle-aged and older adults reaffirmed **CBT-I as the gold standard** (largest reduction in PSQI, MD −6.30). Interestingly, **meditative movement therapy** (e.g., tai chi/qigong) ranked as the strongest *adjunct* for subjective sleep, with acupuncture also showing consistent benefit — useful options when CBT-I access is limited.\n- A separate **2026 network meta-analysis** of 31 RCTs found **exercise combined with CBT (EX + CBT)** was the most consistently effective combination for sleep quality, sleep-onset latency, and time awake after falling asleep. (No intervention reliably *increased* total sleep time — the gains are in efficiency and continuity.)\n- On supplements: the **AASM still advises against melatonin for chronic insomnia** (best reserved for circadian issues like jet lag/shift work), and magnesium has only weak, mixed evidence — most helpful for nighttime leg cramps that fragment sleep rather than as a cure.\n\nBest-practice habits for restless/disjointed sleep:\n\n1. Keep a **fixed wake time**, even on weekends.\n2. Reserve the bed for sleep; keep the room cool, dark, and quiet.\n3. Build a screen-free wind-down window with dim light.\n4. If symptoms persist 3+ nights/week for 3+ months, see a provider to rule out sleep apnea and consider CBT-I.",
+      "sources": [
+        { "title": "Comparative Efficacy of Non-Pharmacological Adjuncts to CBT for Insomnia in Middle-Aged and Older Adults: a Network Meta-Analysis", "publisher": "Biomed. & Pharmacol. Journal", "url": "https://biomedpharmajournal.org/vol19no2/comparative-efficacy-of-non-pharmacological-adjuncts-to-cognitive-behavioral-therapy-for-insomnia-in-middle-aged-and-older-adults-a-network-meta-analysis/", "date": "2026" },
+        { "title": "Effects of different intervention modalities combined with exercise in patients with insomnia: systematic review & network meta-analysis", "publisher": "Frontiers in Public Health", "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1873034/full", "date": "2026" },
+        { "title": "Missing the mark with melatonin: finding the best treatment for insomnia", "publisher": "AASM", "url": "https://aasm.org/missing-the-mark-melatonin-finding-best-treatment-insomnia/", "date": "2025" }
+      ]
+    }
+  ]
+}
