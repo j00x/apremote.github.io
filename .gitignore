@@ -9,3 +9,4 @@ Gemfile.lock
 # Python
 __pycache__/
 *.pyc
+.firecrawl/

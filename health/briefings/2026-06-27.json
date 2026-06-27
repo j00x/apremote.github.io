@@ -1,0 +1,54 @@
+{
+  "date": "2026-06-27",
+  "title": "Daily Health Briefing",
+  "intro": "Good morning! Here's today's research digest across your tracked topics — anti-aging, HIIT for women, pelvic floor training, emerging cancer therapies, and sleep. Each section summarizes recent, reputable findings, with sources linked as chips.",
+  "sections": [
+    {
+      "topic": "Anti-Aging",
+      "icon": "sparkle",
+      "body": "Two recurring \"longevity\" interventions got more nuanced human data — and both argue for caution over hype.\n\n- **Rapamycin (PEARL trial):** The first long-term human RCT (the *Participatory Evaluation of Aging with Rapamycin for Longevity* study, ~115 adults aged 50–85, compounded rapamycin 5 mg or 10 mg weekly vs placebo for 48 weeks) found rapamycin was **well tolerated with no serious adverse effects**. The 10 mg dose was associated with improved **lean (muscle) mass in women** (~0.5 lb/month) and **bone mineral content in men**. Big caveats: it was effectively a **safety study, not powered for efficacy**, was funded by a company that sells rapamycin, and used compounded rapamycin that is ~3.5× *less* bioavailable than standard sirolimus — so the equivalent doses were closer to ~1.4 mg and ~2.9 mg.\n- **Senolytics (D+Q ± fisetin):** A longitudinal pilot tracking **DNA-methylation \"aging clocks\"** found that 6 months of **dasatinib + quercetin actually *increased* epigenetic age acceleration** on first-generation/mitotic clocks (with shorter telomeres) — the opposite of the intended effect. Adding **fisetin** appeared to blunt that signal. Early, small, non-randomized — but a useful reminder that \"senolytic\" ≠ proven rejuvenation.\n\nBottom line: human longevity data remain **preliminary**. Favor interventions with real RCT support, and treat single-supplement anti-aging claims skeptically.",
+      "sources": [
+        { "title": "Rapamycin slows muscle and bone aging in first long-term clinical trial (PEARL)", "publisher": "NMN.com", "url": "https://www.nmn.com/news/anti-aging-supplement-rapamycin-slows-muscle-and-bone-aging-in-first-long-term-clinical-trial", "date": "2024" },
+        { "title": "Safety and efficacy of rapamycin on healthspan metrics after one year: PEARL Trial Results", "publisher": "medRxiv", "url": "https://www.medrxiv.org/content/10.1101/2024.08.21.24312372v3.full", "date": "2024" },
+        { "title": "Effects of Dasatinib, Quercetin, and Fisetin on DNA methylation clocks: a longitudinal study", "publisher": "Aging-US", "url": "https://www.aging-us.com/article/205581/text", "date": "2024" }
+      ]
+    },
+    {
+      "topic": "HIIT Workouts for Women",
+      "icon": "bolt",
+      "body": "A new systematic review and meta-analysis (19 RCTs, **646 middle-aged and older women**, ages ~44–81, literature searched through Nov 2025) sharpens the picture of what HIIT does — and doesn't — do.\n\n- **Cardiorespiratory fitness:** HIIT produced a **large, high-certainty improvement in VO₂max** (SMD = 1.20, 95% CI 0.86–1.54) across age groups, body-mass status, and program lengths.\n- **Physical function:** HIIT did **not** significantly improve muscle strength, flexibility, or sit-to-stand performance; walking ability improved only borderline (low certainty). Conclusion: **HIIT alone is insufficient** to comprehensively improve functional performance.\n- **Dosing in the studies:** **2–4 sessions/week**, programs from 2 weeks to 9 months, using cycling, treadmill, Nordic walking, or sport-based intervals.\n\nPractical takeaway: keep HIIT for the strong cardio benefit, but **pair it with resistance training** to protect strength, balance, and function — especially through and after menopause. Ramp volume gradually and respect recovery.",
+      "sources": [
+        { "title": "Effects of HIIT on cardiopulmonary fitness and physical function in middle-aged and elderly women: systematic review & meta-analysis", "publisher": "PMC / NIH", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12995631/", "date": "2026" },
+        { "title": "Effects of HIIT on physical fitness and body composition in recreationally active females", "publisher": "Scientific Reports", "url": "https://www.nature.com/articles/s41598-025-11809-x", "date": "2025" }
+      ]
+    },
+    {
+      "topic": "Pelvic Floor Exercises",
+      "icon": "anchor",
+      "body": "A large new randomized trial moves the conversation from *treating* incontinence to **preventing** it during pregnancy.\n\n- **PEFLOW RCT (JAMA Network Open):** Across **9 hospitals in China**, **764 first-time mothers** were randomized to a structured **pelvic floor workout starting at 28 weeks' gestation** vs usual care. At 6 weeks postpartum, **stress urinary incontinence (SUI) was significantly lower** in the exercise group — **8.7% vs 13.9%** (risk difference ~5.2 percentage points, P = .03). More women also reached strong pelvic-floor strength (Modified Oxford Scale ≥4: **17.8% vs 7.9%**, P < .001).\n- This reinforces that **pelvic floor muscle training (PFMT)** remains the evidence-based first line for SUI — and that starting *during pregnancy* can reduce postpartum leakage.\n\nKey point: **technique and consistency beat raw reps.** Correct activation (ideally confirmed by a clinician or with biofeedback) is what drives results.",
+      "sources": [
+        { "title": "Pelvic Floor Workout for Preventing Stress Urinary Incontinence in Primiparous Women: A Randomized Clinical Trial", "publisher": "JAMA Network Open", "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2847774", "date": "2026" },
+        { "title": "PEFLOW RCT (PubMed record)", "publisher": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/41984478/", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "Alternative & Emerging Cancer Treatments",
+      "icon": "ribbon",
+      "body": "**HER2-positive breast cancer — new FDA approval (June 24, 2026):** The FDA approved **palbociclib (Ibrance) + trastuzumab (± pertuzumab) + endocrine therapy** as **maintenance** treatment for HR-positive/HER2-positive locally advanced or metastatic disease after initial chemo. Based on the **PATINA trial** (518 patients), adding palbociclib **cut the risk of progression or death by 24%** (HR 0.76); it carries a breakthrough-therapy designation. Watch for neutropenia and (rarely) pneumonitis/ILD.\n\n**TP53 / p53-mutant cancers:** p53 is still considered hard to drug, with **no broadly approved p53-targeted therapy** yet, but mutation-specific approaches are advancing:\n\n- **Rezatapopt (PC14586)** — a first-in-class oral reactivator of the **TP53 Y220C** mutant — showed activity in the phase 2 **PYNNACLE** trial (SGO 2026). In heavily pretreated **ovarian cancer** (median 4 prior lines): **overall response rate ~44%**, median duration of response **8.2 months**, with **95% of patients showing reduced TP53 Y220C ctDNA** — supporting on-target effect.\n- **Lonsurf + talazoparib** (an NCI-supported combo) selectively kills TP53-mutant cells by overwhelming their weakened DNA repair; in clinical testing.\n\nImportant framing: \"alternative\" should mean **evidence-based** options discussed with an oncologist — these targeted agents are not substitutes for standard care, and some remain investigational.",
+      "sources": [
+        { "title": "FDA Approves Ibrance Combo for Maintenance of HR+/HER2+ Metastatic Breast Cancer (PATINA)", "publisher": "CURE Today", "url": "https://www.curetoday.com/view/fda-approves-ibrance-combo-for-maintenance-treatment-of-hr-positive-her2-positive-metastatic-breast-cancer", "date": "2026" },
+        { "title": "Rezatapopt Shows Activity in Pretreated Ovarian Cancer With TP53 Mutation (PYNNACLE, SGO 2026)", "publisher": "CURE Today", "url": "https://www.curetoday.com/view/rezatapopt-shows-activity-in-pretreated-ovarian-cancer-with-tp53-mutation", "date": "2026" },
+        { "title": "Drug Combination (Lonsurf + Talazoparib) May Have Potential for Cancers with TP53 Mutations", "publisher": "NCI", "url": "https://www.cancer.gov/news-events/cancer-currents-blog/2024/lonsurf-talzenna-cancer-tp53-mutations", "date": "2024" }
+      ]
+    },
+    {
+      "topic": "Sleep — Studies & Best Practices",
+      "icon": "moon",
+      "body": "The evidence keeps favoring **behavioral therapy over supplements** for restless or disjointed sleep — and it's getting easier to access.\n\n- **Digital CBT-I works at scale:** A large meta-analysis (**49 RCTs, 20,118 participants**) found that **fully automated, app/web-based CBT-I** significantly reduced insomnia severity vs controls (WMD −3.42 on the Insomnia Severity Index; 95% CI −4.35 to −2.48; P < 0.001). No therapist required — a scalable option when in-person CBT-I isn't available.\n- **Melatonin — know its lane:** The AASM **advises against routine melatonin for *chronic* insomnia**; it's most useful for **circadian problems** (jet lag, shift work). OTC quality is also a concern: one analysis found actual melatonin content was off-label in **>71%** of products (ranging from 83% less to 478% more than stated).\n\nBest-practice habits for disjointed sleep:\n\n1. Keep a **fixed wake time**, even on weekends; allow time for **7+ hours**.\n2. Use the bed **only for sleep**; if not asleep in ~20 min, get up.\n3. Keep the room **cool, dark, quiet**; dim lights and cut screens ~30 min before bed.\n4. If problems persist ≥3 nights/week for ≥3 months, see a provider to rule out conditions like sleep apnea and to start CBT-I.",
+      "sources": [
+        { "title": "Effectiveness of Digital Cognitive Behavioral Therapy for Insomnia: A Meta-Analysis of RCTs", "publisher": "PMC / NIH", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965280/", "date": "2025" },
+        { "title": "Missing the mark with melatonin: finding the best treatment for insomnia", "publisher": "AASM", "url": "https://aasm.org/missing-the-mark-melatonin-finding-best-treatment-insomnia/", "date": "2021" }
+      ]
+    }
+  ]
+}
