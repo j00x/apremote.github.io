@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-28",
+  "title": "Daily Health Briefing",
+  "intro": "Good morning! Here's today's research digest across your tracked topics — anti-aging, HIIT for women, pelvic floor training, alternative/targeted cancer therapy, and sleep. Each section summarizes recent, reputable findings; sources are linked as chips. Informational only — not medical advice.",
+  "sections": [
+    {
+      "topic": "Anti-Aging",
+      "icon": "sparkle",
+      "body": "The honest headline remains: **animal results haven't translated cleanly to humans yet.**\n\n- **Rapamycin (sirolimus):** A 2025 *Aging-US* evidence review concluded there is **no clear clinical evidence** that low-dose, off-label rapamycin slows aging or extends healthspan in healthy adults — larger, better-designed trials are needed. The 2025 **RAPA-EX-01** RCT (weekly 6 mg sirolimus + home exercise in adults 65–85) found **no clear performance benefit** and flagged a **caution on short-term safety** (more infections in the treatment arm). The earlier PEARL trial did hint at sex-specific gains (lean mass in women), so the picture is mixed, not settled.\n- **NAD+ boosters:** A 2026 randomized, placebo-controlled trial of a novel oral NAD+ formulation rapidly raised *intracellular* NAD within 5 days and was well tolerated — but the clinical signals are **hypothesis-generating only**, not proof of an anti-aging effect.\n\n**Bottom line:** Favor interventions backed by human RCTs, and treat single-supplement \"longevity\" claims with healthy skepticism. The most consistent anti-aging levers remain unglamorous: exercise, sleep, and metabolic health.",
+      "sources": [
+        { "title": "What is the clinical evidence to support off-label rapamycin therapy in healthy adults? (evidence review)", "publisher": "Aging-US", "url": "https://www.aging-us.com/news-room/rapamycin-shows-limited-evidence-for-longevity-benefits-in-healthy-adults", "date": "2025" },
+        { "title": "Exercise and Weekly Sirolimus (Rapamycin) in Older Adults: RAPA-EX-01 Randomised, Double-Blind, Placebo-Controlled Trial", "publisher": "PMC", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13082878/", "date": "2025" },
+        { "title": "Human trials exploring anti-aging medicines (review of metformin, NAD+, senolytics, etc.)", "publisher": "Cell Metabolism", "url": "https://www.sciencedirect.com/science/article/pii/S1550413123004588", "date": "2024" }
+      ]
+    },
+    {
+      "topic": "HIIT Workouts for Women",
+      "icon": "bolt",
+      "body": "HIIT keeps proving itself as a **time-efficient cardio booster** — but new evidence sharpens *what it does and doesn't do*.\n\n- A **2026** systematic review & meta-analysis (19 RCTs) in middle-aged and older women found HIIT **significantly improves cardiorespiratory fitness (VO₂max; SMD 1.20, high certainty)** — but showed **no significant gains in muscle strength, flexibility, or sit-to-stand**. Translation: HIIT alone is **not enough** for overall functional fitness.\n- A 2025 meta-analysis in recreationally active females confirmed HIIT raises VO₂max and **modestly lowers body-fat percentage**, with little change in total body mass.\n- A randomized trial in young women with overweight found **HIIT + resistance training beats HIIT alone** for cardiorespiratory fitness and body composition.\n\n**Practical takeaway:** Use HIIT for the engine (VO₂max), but **pair it with resistance and balance work** for strength, function, and long-term results. Intensity is the active ingredient; recovery and consistency make it stick.",
+      "sources": [
+        { "title": "Effects of HIIT on cardiopulmonary fitness and physical function in middle-aged and elderly women: systematic review & meta-analysis", "publisher": "Frontiers in Physiology", "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1778052/full", "date": "2026" },
+        { "title": "Effects of HIIT on physical fitness and body composition in recreationally active females: systematic review & meta-analysis", "publisher": "Scientific Reports", "url": "https://www.nature.com/articles/s41598-025-11809-x", "date": "2025" },
+        { "title": "Combined HIIT and resistance training improves cardiorespiratory fitness more than HIIT alone in young women with overweight/obesity: RCT", "publisher": "Frontiers in Endocrinology", "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2024.1450944/full", "date": "2024" }
+      ]
+    },
+    {
+      "topic": "Pelvic Floor Exercises",
+      "icon": "anchor",
+      "body": "**Pelvic floor muscle training (PFMT)** remains evidence-based first-line care — and 2026 data refines *how* to do it best.\n\n- A **2026** *JAMA Network Open* multicenter RCT (764 first-time mothers across 9 hospitals) tested **PEFLOW** — PFMT plus global postural exercises started at 28 weeks' gestation. It **cut early postpartum stress incontinence** (8.7% vs 13.9% in controls at 6 weeks) and more than doubled the share of women with strong pelvic-floor function.\n- A **2026** network meta-analysis (49 RCTs, 5,432 patients) ranked **PFMT + vaginal weights** highest for reducing leakage and building strength, while **PFMT + biofeedback + electrical stimulation** ranked best for quality of life.\n- A **2026** trial of intensive *preoperative* PFMT in women awaiting incontinence surgery was striking: **43% postponed their planned surgery** after training.\n\n**Key point:** *Technique and consistency beat sheer reps.* Correct activation (ideally confirmed with a clinician or biofeedback) — plus adjuncts like weighted cones — is what drives results.",
+      "sources": [
+        { "title": "Pelvic Floor Workout (PEFLOW) for Preventing Stress Urinary Incontinence in Primiparous Women: a Randomized Clinical Trial", "publisher": "JAMA Network Open", "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2847774", "date": "2026" },
+        { "title": "Effects of various exercise interventions for postpartum stress urinary incontinence: systematic review & network meta-analysis", "publisher": "Frontiers in Medicine", "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1795125/full", "date": "2026" },
+        { "title": "Effectiveness of Intensive Preoperative Pelvic Floor Muscle Training in Women with Stress Urinary Incontinence Awaiting Surgery: an RCT", "publisher": "Int Urogynecology Journal", "url": "https://link.springer.com/article/10.1007/s00192-026-06559-x", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "Alternative & Targeted Cancer Treatments",
+      "icon": "ribbon",
+      "body": "Big momentum in **HER2-positive breast cancer**, plus a promising lead for **HER2 + TP53 (p53) co-mutated** disease.\n\n- **First-line standard is shifting.** The phase 3 **DESTINY-Breast09** trial (published in *NEJM*) showed the antibody-drug conjugate **trastuzumab deruxtecan (T-DXd) + pertuzumab** nearly doubled progression-free survival vs the long-standing THP regimen (~**40.7 vs 26.9 months**; HR 0.56). The FDA approved this first-line combination on **Dec 15, 2025**.\n- **Earlier-stage news:** In 2026 the FDA also approved T-DXd (ENHERTU) for **neoadjuvant and adjuvant** early HER2+ breast cancer (DESTINY-Breast11 and -05).\n- **p53 / TP53 angle:** p53 itself is still **\"undruggable\"** — no approved p53-targeted drug. But new preclinical work shows **HER2 + TP53 co-mutated** tumors (resistant to neratinib) stay **sensitive to T-DXd's TOP1-inhibitor payload**, and **neratinib + T-DXd** is being explored in an early-phase trial (NCT05372614).\n\n**Framing:** \"Alternative\" should mean **evidence-based, oncologist-guided** options — complements to, not replacements for, standard care.",
+      "sources": [
+        { "title": "Trastuzumab Deruxtecan plus Pertuzumab for HER2-Positive Metastatic Breast Cancer (DESTINY-Breast09)", "publisher": "NEJM / PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/41160818/", "date": "2025" },
+        { "title": "ENHERTU approved in the US for neoadjuvant and adjuvant HER2-positive early breast cancer (DESTINY-Breast11 & -05)", "publisher": "AstraZeneca", "url": "https://www.astrazeneca.com/content/az-us/media/press-releases/2026/ENHERTU-fam-trastuzumab-deruxtecan-nxki-approved-in-the-US-for-two-new-indications-for-patients-with-HER2-positive-early-breast-cancer.html", "date": "2026" },
+        { "title": "HER2; p53 Co-mutated Cancers Show Increased Histone Acetylation and are Sensitive to Neratinib plus Trastuzumab Deruxtecan", "publisher": "PMC", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12265670/", "date": "2025" }
+      ]
+    },
+    {
+      "topic": "Sleep — Studies & Best Practices",
+      "icon": "moon",
+      "body": "For restless or disjointed sleep, the evidence still favors **behavior over pills** — and increasingly, *accessible* behavioral therapy.\n\n- **CBT-I is the gold standard.** A 2026 network meta-analysis in middle-aged/older adults found **CBT-I** gave the largest sleep-quality improvement (PSQI mean difference ≈ −6.3 vs usual care). **Meditative movement** (e.g., tai chi/yoga) emerged as the strongest *adjunct* (≈ −5.5), with acupuncture a more modest option.\n- **Digital CBT-I works when you can't see a therapist.** A 2025 meta-analysis (29 RCTs, ~9,475 people) found fully-automated digital CBT-I delivers moderate-to-large benefits (therapist-guided is still best, and **adherence matters most**). A 2025 RCT of FDA-authorized **SleepioRx** showed gains **sustained at 6 months**.\n- **Supplements are secondary.** Magnesium and melatonin are **not proven primary treatments** for chronic insomnia (magnesium shows only modest, often placebo-driven effects); melatonin is best reserved for circadian issues like jet lag/shift work.\n\n**Habits that move the needle:**\n1. Fixed **wake time**, even on weekends.\n2. Bed for **sleep only**; keep the room cool, dark, quiet.\n3. Dim lights and cut screens during a wind-down window.\n4. Persistent problems → see a provider to rule out **sleep apnea** and consider **CBT-I**.",
+      "sources": [
+        { "title": "Comparative Efficacy of Non-Pharmacological Adjuncts to CBT for Insomnia in Middle-Aged and Older Adults: a Network Meta-Analysis", "publisher": "Biomed & Pharmacology Journal", "url": "https://biomedpharmajournal.org/vol19no2/comparative-efficacy-of-non-pharmacological-adjuncts-to-cognitive-behavioral-therapy-for-insomnia-in-middle-aged-and-older-adults-a-network-meta-analysis/", "date": "2026" },
+        { "title": "Systematic review and meta-analysis on fully automated digital cognitive behavioral therapy for insomnia (29 RCTs)", "publisher": "npj Digital Medicine", "url": "https://www.nature.com/articles/s41746-025-01514-4", "date": "2025" },
+        { "title": "Effectiveness of Digital CBT (SleepioRx) to Treat Insomnia Disorder in US Adults: Decentralized RCT", "publisher": "JMIR Mental Health", "url": "https://mental.jmir.org/2025/1/e84323", "date": "2025" }
+      ]
+    }
+  ]
+}
