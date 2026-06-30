@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-29",
+  "title": "Daily Health Briefing",
+  "intro": "Good morning! Here's today's research digest across your tracked topics. Each section summarizes recent, reputable findings from sources like PubMed, JAMA, NIH, and the AASM — citations are linked as chips below each section.",
+  "sections": [
+    {
+      "topic": "Anti-Aging",
+      "icon": "sparkle",
+      "body": "The longevity field keeps shifting from animal models toward **human clinical trials**, and the most-watched candidate remains **rapamycin (an mTOR inhibitor)**.\n\n- The **PEARL trial** (48-week, double-blind, placebo-controlled, NCT04488601) reported that intermittent **low-dose rapamycin is relatively safe** in healthy, normally-aging adults. Benefits were modest and sex-specific: women on 10 mg/week saw significant gains in **lean tissue mass** and reductions in self-reported **pain**; the 5 mg group reported better emotional well-being and general health. Visceral fat (the primary endpoint) did *not* change.\n- **Urolithin A** continues to be studied for mitochondrial and metabolic health — a new trial (NCT06274749) launched mid-2026 to test its effect on insulin secretion, mitochondrial respiration, and the gut microbiome in adults 55+.\n- **Senolytics** (e.g., fisetin) and **NAD+ precursors** (NR) remain promising but largely early-stage; most positive senolytic data are still from cells and animals.\n\nPractical framing: prefer interventions backed by human RCTs, treat single-supplement \"longevity\" claims skeptically, and remember that benefits seen so far are generally **modest**.",
+      "sources": [
+        { "title": "Influence of rapamycin on safety and healthspan metrics after one year: PEARL trial results", "publisher": "Aging (Aging-US)", "url": "https://www.aging-us.com/article/206235", "date": "2025" },
+        { "title": "Evaluation of urolithin A on mitochondrial respiration, insulin secretion and the gut microbiome in older adults", "publisher": "ClinicalTrials.gov", "url": "https://clinicaltrials.gov/study/NCT06274749", "date": "2026" },
+        { "title": "Top 10 Longevity & Anti-Aging Breakthroughs (senolytics, NAD+, rapalogs)", "publisher": "Healthspan", "url": "https://www.gethealthspan.com/research/article/top-ten-longevity-anti-aging-breakthroughs-of-2025", "date": "2025" }
+      ]
+    },
+    {
+      "topic": "HIIT Workouts for Women",
+      "icon": "bolt",
+      "body": "New 2026 evidence reinforces HIIT as a **time-efficient** way to boost fitness in women — with an important caveat about what it does and doesn't do.\n\n- A **2026 systematic review & meta-analysis** (19 RCTs in middle-aged and older women) found HIIT **significantly improves VO2max** vs. controls (SMD = 1.20, 95% CI 0.86–1.54) with *high certainty* of evidence, consistent across age, body-mass status, and program length. Walking ability improved borderline-significantly.\n- That same review found **no significant gain in muscle strength** from HIIT alone — so pair it with **resistance training** if strength/lean mass is a goal.\n- In **postmenopausal women with overweight/obesity**, a 12-week trial (3 sessions/week) showed both HIIT and concurrent training reduced body weight, BMI, abdominal fat, triglycerides, total/LDL cholesterol, glucose, and insulin (HOMA-IR). **Concurrent (HIIT + resistance) training** produced slightly greater body-composition improvements.\n\nBottom line: intensity drives the cardio gains; add resistance work and ramp volume gradually with adequate recovery.",
+      "sources": [
+        { "title": "Effects of HIIT on cardiopulmonary fitness and physical function in middle-aged and elderly women: systematic review & meta-analysis", "publisher": "Frontiers in Physiology", "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1778052/full", "date": "2026" },
+        { "title": "HIIT and concurrent training on body composition and metabolic profile in postmenopausal women with overweight or obesity: a clinical trial", "publisher": "EEMD", "url": "https://www.explorationpub.com/Journals/eemd/Article/101469", "date": "2025" },
+        { "title": "Effect of interval training on cardiometabolic health markers in postmenopausal women: systematic review with meta-analysis", "publisher": "PubMed / IJOGI", "url": "https://ijogi.mums.ac.ir/article_25884.html?lang=en", "date": "2024" }
+      ]
+    },
+    {
+      "topic": "Pelvic Floor Exercises",
+      "icon": "anchor",
+      "body": "**Pelvic floor muscle training (PFMT)** keeps its place as the evidence-based, **first-line** treatment for stress urinary incontinence (SUI) — and 2026 trials strengthen the case.\n\n- A **2026 multicenter JAMA Network Open RCT** (764 first-time mothers, China) tested a structured prenatal program (\"PEFLOW\"). It **cut SUI incidence at 6 weeks postpartum** (8.7% vs. 13.9% in controls) and more than doubled the share of women with strong pelvic-floor muscle scores.\n- A **2026 RCT** in women awaiting sling surgery found 6 weeks of **intensive preoperative PFMT** significantly improved muscle strength and incontinence severity — and **43% postponed their planned surgery** afterward.\n- A **2026 network meta-analysis** (49 RCTs, 5,432 patients) ranked **PFMT + vaginal weights** highest for reducing objective leakage, with **biofeedback ± electrical stimulation** adding benefit for muscle strength.\n\nKey point: *correct technique and consistency matter more than reps.* Confirm activation with a clinician or biofeedback, and supervised programs tend to outperform unsupervised ones.",
+      "sources": [
+        { "title": "Pelvic Floor Workout for Preventing Stress Urinary Incontinence in Primiparous Women: A Randomized Clinical Trial", "publisher": "JAMA Network Open", "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2847774", "date": "2026" },
+        { "title": "Effectiveness of Intensive Preoperative Pelvic Floor Muscle Training in Women with SUI Awaiting Surgery: A Randomized Controlled Trial", "publisher": "Int Urogynecology Journal", "url": "https://link.springer.com/article/10.1007/s00192-026-06559-x", "date": "2026" },
+        { "title": "Effects of various exercise interventions for postpartum stress urinary incontinence: systematic review & network meta-analysis", "publisher": "Frontiers in Medicine", "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1795125/full", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "Alternative Cancer Treatments — HER2+ / TP53",
+      "icon": "ribbon",
+      "body": "The most relevant recent work for **HER2-positive, TP53/p53-mutated** breast cancer is a mechanistic study (PubMed, 2025) explaining why these \"co-mutated\" tumors are hard to treat — and how to exploit that.\n\n- In mouse models, **HER2 + TP53 co-mutant** tumors grew faster and were **resistant to neratinib** alone, but showed increased histone acetylation, more open chromatin, and hyper-transcription of DNA-repair genes — making them **sensitive to the topoisomerase-I (TOP1) inhibitor payload** carried by **trastuzumab deruxtecan (T-DXd / Enhertu)**.\n- Combining **neratinib + T-DXd** was highly effective preclinically, supporting a rational strategy for these tumors.\n- This combination is now in a **phase 1 trial** (NCI ETCTN 10495, NCT05372614). Puma Biotechnology's **AACR 2025** update reported the recommended phase 2 dose (T-DXd 5.4 mg/kg + neratinib escalated to 240 mg) and that a pharmacodynamic expansion cohort opened in 2025.\n\nImportant framing: this is **early-stage, investigational** evidence. \"Alternative\" should mean *evidence-based options discussed with an oncologist* — not a replacement for standard care. p53 itself remains largely \"undruggable,\" with no approved p53-targeted therapy yet.",
+      "sources": [
+        { "title": "HER2; p53 Co-mutated Cancers Show Increased Histone Acetylation and are Sensitive to Neratinib plus Trastuzumab Deruxtecan", "publisher": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/40672227/", "date": "2025" },
+        { "title": "HER2; p53 Co-mutated Cancers Sensitive to Neratinib plus T-DXd (full text)", "publisher": "PMC / NIH", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12265670/", "date": "2025" },
+        { "title": "Phase 1 trial of T-DXd in combination with neratinib in solid tumors with HER2 alterations (NCI 10495)", "publisher": "ClinicalTrials.gov", "url": "https://clinicaltrials.gov/study/NCT05372614", "date": "2025" }
+      ]
+    },
+    {
+      "topic": "Sleep — Studies & Best Practices",
+      "icon": "moon",
+      "body": "The newest guidance still favors **behavioral treatment over pills and supplements** for chronic, restless, or disjointed sleep.\n\n- A brand-new **AASM clinical practice guideline** (published April 2026 in the *Journal of Clinical Sleep Medicine*) on *combination* therapy concluded: combining CBT-I with medication is better than **medication alone**, but combination is **not** better than **CBT-I alone** — which often produces meaningful, durable improvement without drug risks. **CBT-I remains first-line.**\n- A 2025 best-evidence synthesis (28 high-quality sources) again confirmed **multicomponent CBT-I** (stimulus control, sleep restriction, cognitive restructuring, relaxation) is effective across individual, group, and **digital** formats.\n- On supplements: the AASM continues to **suggest against melatonin** for chronic insomnia (insufficient efficacy evidence); melatonin is most useful for **circadian problems** like jet lag or shift work. Evidence for **magnesium** is limited.\n\nBest-practice habits for restless/disjointed sleep:\n\n1. Keep a **fixed wake time**, even on weekends.\n2. Use the bed **only for sleep**; keep the room cool, dark, and quiet.\n3. Dim lights and cut screens during a wind-down window.\n4. If problems persist beyond a few weeks, see a provider to rule out sleep apnea and consider **CBT-I**.",
+      "sources": [
+        { "title": "Combination treatment for chronic insomnia disorder in adults: an AASM clinical practice guideline", "publisher": "AASM / JCSM (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13076838/", "date": "2026" },
+        { "title": "New guideline provides recommendations on combining treatments for chronic insomnia", "publisher": "AASM", "url": "https://aasm.org/combination-treatment-chronic-insomnia-guideline/", "date": "2026" },
+        { "title": "Best evidence that CBT-I improves sleep quality in patients with chronic insomnia", "publisher": "PMC / NIH", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12897499/", "date": "2025" }
+      ]
+    }
+  ]
+}
