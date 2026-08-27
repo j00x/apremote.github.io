@@ -1,0 +1,57 @@
+{
+  "date": "2026-08-27",
+  "title": "Daily Health Briefing",
+  "intro": "Good morning! Today's digest leans on fresh human-trial data — the PEARL rapamycin results, new HIIT dosing guidance, the pelvic-floor biofeedback debate, a vitamin D / TP53 signal in HER2+ breast cancer, and where sleep meds and supplements actually fit. Sources are linked as chips below each section. Informational only — talk to a clinician before acting on anything.",
+  "sections": [
+    {
+      "topic": "Anti-Aging — Rapamycin, NAD+ & Urolithin A",
+      "icon": "sparkle",
+      "body": "This week is all new **human RCT** data — with the usual reminder that effects are modest and often sex-specific.\n\n- **Rapamycin (PEARL trial).** The longest longevity RCT of low-dose weekly rapamycin (114 healthy adults 50–85, 48 weeks) found it **safe and well-tolerated**. It *missed* its primary endpoint (visceral fat), but **women on 10 mg/week gained significant lean tissue mass and reported less pain**, and 5 mg improved well-being. Exploratory — not proof of \"anti-aging\" — but reassuring on safety.\n- **NAD+, done differently.** A 2026 *GeroScience* RCT of an oral reformulated NAD+ raised **intracellular** NAD ~53% vs placebo **without** changing plasma NAD — hinting that *where* NAD lands may matter more than blood levels.\n- **Urolithin A.** An **NIH/NIA** trial (NCT06274749) testing 1 g/day on glucose metabolism in adults 55+ began recruiting **Aug 31, 2026**.",
+      "sources": [
+        { "title": "Influence of rapamycin on safety and healthspan metrics after one year: PEARL trial results", "publisher": "Aging (Aging-US)", "url": "https://www.aging-us.com/article/206235", "date": "2025" },
+        { "title": "Oral LNAD+ rapidly elevates whole blood intracellular NAD and metabolic flux without elevating plasma NAD: a randomized controlled trial", "publisher": "GeroScience (Springer)", "url": "https://link.springer.com/article/10.1007/s11357-026-02399-1", "date": "2026" },
+        { "title": "Effects of Urolithin A Supplementation on Glucose Metabolism in Healthy Adults 55+ (recruiting, starts Aug 31 2026)", "publisher": "NIH / ClinicalTrials.gov", "url": "https://clinicaltrials.gov/study/NCT06274749", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "HIIT Workouts for Women",
+      "icon": "bolt",
+      "body": "New 2026 reviews keep HIIT as a **time-efficient** option — and help pin down the dose.\n\n- **Older women.** A 2026 systematic review & meta-analysis (*Frontiers in Physiology*) found HIIT improves **VO₂max, body composition, strength and physical function** in middle-aged and older women — often matching moderate cardio in roughly **40% less time**.\n- **Dose matters.** A 2026 **network meta-analysis** in adults with obesity ranked **HIIT ≥75 min/week first** for cutting body-fat %, lowering waist-to-hip ratio, and raising VO₂max.\n- **Pair it with strength.** A 12-week RCT in postmenopausal women (NCT07302191) found both HIIT and **concurrent** (aerobic + resistance) training improved glucose and lipid markers, but **concurrent training produced greater drops in weight, BMI and body-fat %**.\n\nBottom line: aim for **≥75 min/week** of real intervals, and **add resistance work** for body composition.",
+      "sources": [
+        { "title": "Effects of HIIT on cardiopulmonary fitness and physical function in middle-aged and elderly women: a systematic review and meta-analysis", "publisher": "Frontiers in Physiology", "url": "https://doi.org/10.3389/fphys.2026.1778052", "date": "2026" },
+        { "title": "Efficacy of HIIT versus MICT for body composition and cardiorespiratory fitness in obese/overweight adults: systematic review and network meta-analysis", "publisher": "BMC Sports Sci Med Rehabil", "url": "https://doi.org/10.1186/s13102-026-01686-w", "date": "2026" },
+        { "title": "Effects of HIIT and concurrent training on body composition and metabolic profile in postmenopausal women with overweight/obesity: a clinical trial", "publisher": "Explor Endocrinol Metab Dis", "url": "https://www.explorationpub.com/Journals/eemd/Article/101469", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "Pelvic Floor Exercises",
+      "icon": "anchor",
+      "body": "**Pelvic floor muscle training (PFMT)** remains the **first-line** treatment for stress urinary incontinence. This week's question: does adding **biofeedback** help?\n\n- **Maybe — as a learning aid.** A 2026 sham-controlled RCT (60 women) found adding **EMG biofeedback — even *sham* feedback** — improved pelvic-floor activation, leak frequency and quality of life vs PFMT alone. The likely lesson: **supervised, structured practice** is what drives gains.\n- **Big trials say it's optional.** The 600-woman **OPAL** multicentre RCT (*BMJ*, 2020) found **no meaningful difference** in incontinence severity at 24 months between PFMT with vs without EMG biofeedback; a meta-analysis agrees biofeedback isn't required routinely.\n\nTakeaway: **consistent, correctly-performed PFMT matters most.** Biofeedback is a useful aid if you struggle to *isolate* the muscles — not a must-have. Confirm your technique with a clinician.",
+      "sources": [
+        { "title": "The effect of EMG biofeedback in female patients with stress urinary incontinence: a randomized sham-controlled blinded clinical study", "publisher": "Irish J Medical Science", "url": "https://link.springer.com/article/10.1007/s11845-026-04374-3", "date": "2026" },
+        { "title": "PFMT with and without electromyographic biofeedback for urinary incontinence in women: OPAL multicentre randomised controlled trial", "publisher": "BMJ", "url": "https://doi.org/10.1136/bmj.m3719", "date": "2020" },
+        { "title": "PFMT for Stress Urinary Incontinence, with and without Biofeedback: a systematic review and meta-analysis of RCTs", "publisher": "Open Urol Nephrol J", "url": "https://openurologyandnephrologyjournal.com/VOLUME/15/ELOCATOR/e1874303X2208181/", "date": "2022" }
+      ]
+    },
+    {
+      "topic": "Alternative & Integrative Options — HER2+ / TP53 Breast Cancer",
+      "icon": "ribbon",
+      "body": "\"Alternative\" here means **evidence-based integrative care *alongside* standard HER2-targeted therapy — never instead of it.**\n\n- **Vitamin D, with a TP53 twist.** A 2026 *Nutrients* study of curative-intent HER2+ patients found **correcting vitamin D deficiency tracked with better disease-free survival** (those who stayed deficient had ~**1.7× recurrence risk**). Because HER2+ tumors often carry **TP53 mutations**, it's notable that in a TP53-mutated subset of the **AMATERASU** trial, vitamin D showed **81% vs 31% 5-year relapse-free survival** (HR 0.27).\n- **A mechanistic caution.** Older lab work shows **mutant p53 can bind the vitamin D receptor** and, in some contexts, shift vitamin D toward a *cell-protective* (anti-apoptotic) effect — so \"more\" isn't automatically better. This is **preclinical**.\n- **Supplements ≠ free lunch.** A 2026 *Frontiers in Oncology* review flags **bioavailability limits and herb–drug interactions** for curcumin, quercetin and resveratrol.\n\nDiscuss any supplement with your **oncology team** before starting.",
+      "sources": [
+        { "title": "Successful Vitamin D Replacement After Deficiency and Disease-Free Survival in Curative-Intent HER2+ Breast Cancer: a retrospective interventional study", "publisher": "Nutrients (MDPI)", "url": "https://www.mdpi.com/2072-6643/18/8/1253", "date": "2026" },
+        { "title": "Modulation of the Vitamin D3 response by cancer-associated mutant p53", "publisher": "PMC / NIH", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2882298/", "date": "2010" },
+        { "title": "Natural supplements in breast cancer therapy: translational evidence, clinical safety, and emerging challenges", "publisher": "Frontiers in Oncology", "url": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2026.1748136/full", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "Sleep — Studies & Best Practices",
+      "icon": "moon",
+      "body": "For restless, fragmented sleep, 2026 guidance keeps **behavioral therapy ahead of pills**.\n\n- **The treatment hierarchy.** The **AASM's 2026** combination-therapy guideline ranks **CBT-I alone first**, combination (CBT-I + medication) second, and **medication alone last**. CBT-I often delivers durable improvement without drug risks.\n- **Sleep hygiene isn't a cure by itself.** AASM conditionally recommends **against sleep hygiene as a *standalone* treatment** — pair good habits with the active pieces of CBT-I: a **fixed wake time**, **stimulus control** (bed = sleep only), and **sleep restriction**.\n- **Supplements, honestly.** AASM has conditionally recommended **against melatonin, valerian and tryptophan** for chronic insomnia; melatonin's modest benefit is mostly in adults **55+** or **circadian** issues (jet lag, shift work). **Magnesium** evidence remains limited.\n\nIf fragmented sleep persists beyond a few weeks, ask a clinician to rule out **sleep apnea** and consider **CBT-I** (in-person or digital).",
+      "sources": [
+        { "title": "New guideline provides recommendations on combining treatments for chronic insomnia (CBT-I first-line)", "publisher": "AASM", "url": "https://aasm.org/combination-treatment-chronic-insomnia-guideline/", "date": "2026" },
+        { "title": "Combination treatment for chronic insomnia disorder in adults: an AASM clinical practice guideline (full text)", "publisher": "PMC / NIH", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13076838/", "date": "2026" },
+        { "title": "Insomnia: a practical clinical and therapeutic approach (CBT-I first-line; DORAs, melatonin, Z-drugs)", "publisher": "ScienceDirect (Medicina Clínica)", "url": "https://www.sciencedirect.com/science/article/pii/S2387020626000367", "date": "2026" }
+      ]
+    }
+  ]
+}
