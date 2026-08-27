@@ -5,7 +5,7 @@
 > rules learned over time. When something durable changes (a new topic, a preference, a
 > correction), update the relevant section here so future runs stay consistent.
 
-_Last updated: 2026-06-20_
+_Last updated: 2026-08-27_
 
 ## Who this is for
 
@@ -72,6 +72,12 @@ Keep this list authoritative. Produce one section per topic, in this order:
   taurine-biomarker doubt; HIIT meta-analysis; pelvic floor PFMT meta-analysis; HER2+
   DESTINY-Breast09 / TP53 rezatapopt; sleep CBT-I vs magnesium/melatonin). Established the
   warm-morning voice and the 5-topic structure above.
+- **2026-08-27** — Briefing published (Anti-Aging: PEARL rapamycin RCT — women lean-mass/pain,
+  NAD+ intracellular RCT, urolithin A NIA trial now recruiting; HIIT: 2026 older-women meta,
+  ≥75 min/week network MA, HIIT vs concurrent postmenopausal RCT; pelvic floor: EMG-biofeedback
+  debate — 2026 sham RCT vs OPAL/BMJ; HER2+/TP53: vitamin D repletion + AMATERASU TP53 subset +
+  mutant-p53/VDR caution; sleep: AASM 2026 hierarchy CBT-I > combo > meds, sleep-hygiene-alone
+  caveat, supplement reality check). Avoid re-leading with these next run.
 <!-- Add new entries as preferences/topics evolve, e.g.:
 - YYYY-MM-DD — Adam asked to add "longevity wearables" as topic 6 (icon: pulse).
 - YYYY-MM-DD — Reader prefers metric units; keep summaries under 120 words.
