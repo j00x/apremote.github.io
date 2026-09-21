@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-21",
+  "title": "Daily Health Briefing",
+  "intro": "Good morning! Here's today's research digest across your tracked topics — anti-aging, HIIT for women, pelvic floor training, integrative options for HER2+/TP53 breast cancer, and sleep. Each section leads with the practical takeaway and the strength of the evidence (RCT vs. review vs. observational), with linked citations below. Informational only — talk to a clinician before acting on anything.",
+  "sections": [
+    {
+      "topic": "Anti-Aging — Rapamycin, Urolithin A & the NAD Hype",
+      "icon": "sparkle",
+      "body": "Human longevity data keeps growing, but the honest headline is still **modest effects, no proof of lifespan extension** — so favor interventions with real trials and keep expectations calm.\n\n- **Rapamycin (PEARL trial).** The 48-week, double-blind **PEARL** RCT (healthy adults, weekly placebo vs. 5 mg vs. 10 mg) found low-dose intermittent rapamycin was **relatively safe**, with adverse events similar across groups. Its primary endpoint — **visceral fat — did not change**, but **women on 10 mg** saw significant gains in **lean muscle mass** and less self-reported pain. Efficacy for \"longevity\" isn't established yet.\n- **Urolithin A.** A 2025 *Nature Aging* RCT (50 adults, 1,000 mg/day for 4 weeks) showed UA expanded **younger, less-exhausted CD8+ T cells** and boosted their fat-burning capacity — an encouraging *proof-of-concept* for immune aging, not a longevity outcome.\n- **NAD reality check.** A 2026 RCT of an oral NAD+ formula raised **intracellular** blood NAD ~53% but **not** plasma NAD, and **no** clinical, wellbeing, or wearable endpoint held up — a reminder that a moving biomarker isn't a proven benefit.",
+      "sources": [
+        { "title": "Influence of rapamycin on safety and healthspan metrics after one year: PEARL trial results", "publisher": "Aging (Aging-US)", "url": "https://doi.org/10.18632/aging.206235", "date": "2025" },
+        { "title": "Effect of the mitophagy inducer urolithin A on age-related immune decline: a randomized, placebo-controlled trial", "publisher": "Nature Aging", "url": "https://www.nature.com/articles/s43587-025-00996-x", "date": "2025" },
+        { "title": "Oral LNAD+ rapidly elevates whole-blood intracellular NAD without elevating plasma NAD: a randomized controlled trial", "publisher": "GeroScience (Springer)", "url": "https://link.springer.com/article/10.1007/s11357-026-02399-1", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "HIIT Workouts for Women",
+      "icon": "bolt",
+      "body": "New 2025–2026 evidence keeps HIIT as a **time-efficient cardio tool** for women — with a clear reminder to **pair it with resistance work and nutrition** for strength and fat loss.\n\n- **Middle-aged & older women.** A 2026 *Frontiers in Physiology* systematic review & meta-analysis (**19 RCTs**, literature through Nov 2025) found HIIT **significantly improved VO2max** (a strong, high-certainty result). Effects on muscle strength were **not** significant, and walking ability improved only borderline — VO2 gains were consistent across ages, body-mass status, and program lengths.\n- **Recreationally active women.** A 2025 *Scientific Reports* meta-analysis (15 studies, ~304 women) found **small but real** gains in cardiorespiratory fitness and a **reduction in body-fat percentage**, but **no significant change in total body mass or fat mass**. Expect **recomposition**, not a big shift on the scale.\n\nBottom line: intensity drives the cardio wins efficiently; **add strength training**, mind nutrition, progress gradually, and keep recovery adequate.",
+      "sources": [
+        { "title": "Effects of HIIT on cardiopulmonary fitness and physical function in middle-aged and elderly women: a systematic review and meta-analysis", "publisher": "Frontiers in Physiology", "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1778052/full", "date": "2026" },
+        { "title": "Effects of HIIT on physical fitness and body composition in recreationally active females: a systematic review and meta-analysis", "publisher": "Scientific Reports (Nature)", "url": "https://www.nature.com/articles/s41598-025-11809-x", "date": "2025" }
+      ]
+    },
+    {
+      "topic": "Pelvic Floor Exercises",
+      "icon": "anchor",
+      "body": "**Pelvic floor muscle training (PFMT)** stays the evidence-based, **first-line** treatment for stress urinary incontinence (SUI). This week's studies focus on doing it *consistently* and *correctly*.\n\n- **Before surgery, try training first.** A **March 2026** RCT (*Int. Urogynecology Journal*, 90 women awaiting sling surgery) found a supervised **6-week intensive PFMT** program significantly improved **muscle strength** and **symptom severity** vs. education alone — and **43% postponed their planned surgery**. A strong case for structured training before opting for an operation.\n- **Adherence is the hard part.** A **Sept 2026** RCT (*BMC Women's Health*) added a self-management (\"5E\") program to routine care: PFMT **adherence jumped to 74% vs. 32%**, with a bigger drop in weekly leakage episodes.\n- **Biofeedback helps postpartum.** A 2024 *JAMA Network Open* RCT (452 new mothers) found adding a **home pressure-biofeedback device** to supervised PFMT more than **doubled the cure rate (20% vs. 9%)**.\n\nKey point: **technique and consistency beat sheer reps** — confirm activation with a clinician or biofeedback.",
+      "sources": [
+        { "title": "Effectiveness of Intensive Preoperative Pelvic Floor Muscle Training in Women with Stress Urinary Incontinence Awaiting Surgery: A Randomized Controlled Trial", "publisher": "PubMed (Int Urogynecol J)", "url": "https://pubmed.ncbi.nlm.nih.gov/41793487/", "date": "2026" },
+        { "title": "5E rehabilitation model for self-management in women with stress urinary incontinence: a randomised mixed-methods study", "publisher": "BMC Women's Health", "url": "https://link.springer.com/article/10.1186/s12905-026-04844-x", "date": "2026" },
+        { "title": "Pressure-Mediated Biofeedback With Pelvic Floor Muscle Training for Urinary Incontinence: A Randomized Clinical Trial", "publisher": "JAMA Network Open", "url": "https://doi.org/10.1001/jamanetworkopen.2024.42925", "date": "2024" }
+      ]
+    },
+    {
+      "topic": "Alternative & Integrative Options — HER2+ / TP53 Breast Cancer",
+      "icon": "ribbon",
+      "body": "\"Alternative\" is best read as **evidence-based integrative care alongside standard treatment** — never a replacement for HER2-targeted therapy. Two threads stand out this week.\n\n- **Genomics is refining treatment.** A 2026 *npj Breast Cancer* study (364 HER2+ tumors) found **TP53** mutations were the most common (≈47%) but did **not** predict reduced response to therapy; **PIK3CA** mutations did (pCR 48% vs. 67% with dual HER2 blockade). Useful context: TP53 alone isn't a red flag for HER2 treatment, but tumor genetics increasingly guide care.\n- **Vitamin D — being tested properly.** A Phase III RCT (**NCT06642428**, primary completion 2026) is randomizing **vitamin D during neoadjuvant therapy**, measuring pathologic complete response and side effects — a rigorous look at a popular adjunct.\n- **Curcumin — temper the hype.** A randomized docetaxel ± **curcumin** trial in advanced breast cancer showed **no improvement** in response or survival (only a small, non-significant PFS trend).\n\nImportant: much of this is early or observational. Use integrative options as **add-ons discussed with your oncology team**, and always check for **interactions** with targeted therapy.",
+      "sources": [
+        { "title": "Tumor mutations predict HER2-targeted therapy resistance in primary HER2-positive breast cancer", "publisher": "npj Breast Cancer (Nature)", "url": "https://www.nature.com/articles/s41523-026-00948-7", "date": "2026" },
+        { "title": "Effect of Vitamin D Supplementation on the Efficacy and Adverse Effects of Neoadjuvant Therapy in Patients with Breast Cancer (Phase III, recruiting)", "publisher": "NIH / ClinicalTrials.gov", "url": "https://clinicaltrials.gov/study/NCT06642428", "date": "2026" },
+        { "title": "Curcumin's effect in advanced and metastatic breast cancer patients treated with first- or second-line docetaxel: a randomized trial", "publisher": "Health Science Reports (Wiley)", "url": "https://doi.org/10.1002/hsr2.70052", "date": "2024" }
+      ]
+    },
+    {
+      "topic": "Sleep — Studies & Best Practices",
+      "icon": "moon",
+      "body": "For chronic, restless, or disjointed sleep, 2026 guidance still puts **behavioral therapy ahead of pills and supplements**.\n\n- **CBT-I is the backbone.** The AASM's 2026 clinical practice guideline on *combination* therapy gives two conditional recommendations: CBT-I **plus** medication beats **medication alone**, but combination is **not** better than **CBT-I alone** — because CBT-I often delivers durable results without drug risks.\n- **Restless/disjointed sleep specifically.** In a randomized study of people with **restless legs syndrome plus insomnia**, just **4 sessions of CBT-I** improved insomnia severity, **sleep efficiency, total sleep time, time to fall asleep, and night-time awakenings**, plus anxiety — with benefits lasting **3 months**. (Small, older 2020 trial, but directly on-topic.) If sleep is fragmented, ask a provider to rule out **restless legs** and **sleep apnea**.\n- **Melatonin, honestly.** The AASM suggests melatonin is best for **circadian timing** problems (jet lag, shift work), **not** chronic insomnia.\n\nBest habits: keep a **fixed wake time**, reserve the bed for sleep, keep the room cool/dark/quiet, and dim screens during wind-down.",
+      "sources": [
+        { "title": "Combination treatment for chronic insomnia disorder in adults: an AASM clinical practice guideline", "publisher": "AASM", "url": "https://doi.org/10.1007/s44470-025-00038-8", "date": "2026" },
+        { "title": "Cognitive behavioral therapy for insomnia in restless legs syndrome patients (randomized controlled study)", "publisher": "PubMed (Sleep Medicine)", "url": "https://pubmed.ncbi.nlm.nih.gov/32861015/", "date": "2020" },
+        { "title": "Missing the mark with melatonin: finding the best treatment for insomnia", "publisher": "AASM", "url": "https://aasm.org/missing-the-mark-melatonin-finding-best-treatment-insomnia/", "date": "2020" }
+      ]
+    }
+  ]
+}
