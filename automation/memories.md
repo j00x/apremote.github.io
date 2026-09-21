@@ -5,7 +5,7 @@
 > rules learned over time. When something durable changes (a new topic, a preference, a
 > correction), update the relevant section here so future runs stay consistent.
 
-_Last updated: 2026-06-20_
+_Last updated: 2026-09-21_
 
 ## Who this is for
 
@@ -72,6 +72,15 @@ Keep this list authoritative. Produce one section per topic, in this order:
   taurine-biomarker doubt; HIIT meta-analysis; pelvic floor PFMT meta-analysis; HER2+
   DESTINY-Breast09 / TP53 rezatapopt; sleep CBT-I vs magnesium/melatonin). Established the
   warm-morning voice and the 5-topic structure above.
+- **2026-09-21** — Briefing published (Anti-Aging: PEARL rapamycin RCT safety/lean-mass,
+  urolithin A immune-decline RCT, NAD LNAD+ biomarker-only RCT; HIIT: 2026 Frontiers
+  meta-analysis in older women + recreationally-active-female meta on recomposition;
+  Pelvic floor: 2026 intensive preop PFMT RCT + 5E self-management adherence RCT + JAMA
+  biofeedback; HER2+/TP53: npj mutation-resistance paper [TP53 didn't predict, PIK3CA did]
+  + recruiting VD Phase III NCT06642428 + curcumin futility RCT; Sleep: AASM 2026
+  combination guideline + CBT-I-for-RLS RCT + AASM melatonin guidance). Used built-in web
+  search (Firecrawl CLI/key not present in this VM). Verified clean `jekyll build` and
+  rendered all 5 sections on the local dev server before committing.
 <!-- Add new entries as preferences/topics evolve, e.g.:
 - YYYY-MM-DD — Adam asked to add "longevity wearables" as topic 6 (icon: pulse).
 - YYYY-MM-DD — Reader prefers metric units; keep summaries under 120 words.
