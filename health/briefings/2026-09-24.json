@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-24",
+  "title": "Daily Health Briefing",
+  "intro": "Good morning! Here's today's digest across your tracked topics — anti-aging, HIIT for women, pelvic floor training, integrative options for HER2+/TP53 breast cancer, and sleep. Each section distills recent, reputable findings from Nature, Frontiers, PubMed, ClinicalTrials.gov, JAMA Network, and the AASM, with citation chips below. Informational only — talk with a clinician about anything you'd act on.",
+  "sections": [
+    {
+      "topic": "Anti-Aging — Supplements & Regimens",
+      "icon": "sparkle",
+      "body": "This week's theme: the freshest **human** data is on **mitophagy** (urolithin A), while NAD-boosters like **NMN** stay in \"modest and preliminary\" territory.\n\n- **Urolithin A & the aging immune system.** A 2025 *Nature Aging* randomized, placebo-controlled trial (50 healthy middle-aged adults, 1,000 mg/day for 4 weeks) found UA expanded **naive-like, less-exhausted CD8+ T cells** and improved immune-cell function — an early signal it may counter \"inflammaging.\" Small and short, so think *promising*, not *proven*.\n- **Reality check on the muscle claims.** A 2026 *Frontiers in Nutrition* systematic review (5 RCTs, 236 people) could only pool the 6-minute-walk test and found **no statistically significant benefit** (low certainty); strength/endurance signals were mixed. Expect subtle effects.\n- **NMN.** A 2024 RCT (250 mg/day, 12 weeks, 60 older adults) raised blood **NAD+**, helped **maintain walking speed**, and modestly **improved sleep quality** vs. placebo — again, secondary outcomes.\n\nPractical framing: favor ingredients with human RCTs, expect **modest** gains, and be wary of single-supplement \"longevity\" promises.",
+      "sources": [
+        { "title": "Effect of the mitophagy inducer urolithin A on age-related immune decline: a randomized, placebo-controlled trial", "publisher": "Nature Aging", "url": "https://www.nature.com/articles/s43587-025-00996-x", "date": "2025" },
+        { "title": "Effects of Urolithin A supplementation on muscle health outcomes in humans from randomized controlled trials (systematic review & meta-analysis)", "publisher": "Frontiers in Nutrition", "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1834344/full", "date": "2026" },
+        { "title": "Ingestion of β-nicotinamide mononucleotide (NMN) increased blood NAD levels, maintained walking speed, and improved sleep quality in older adults: a randomized, placebo-controlled study", "publisher": "PMC / NIH", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11336149/", "date": "2024" }
+      ]
+    },
+    {
+      "topic": "HIIT Workouts for Women",
+      "icon": "bolt",
+      "body": "New 2026 evidence keeps HIIT a **time-efficient** way to build cardio fitness for women — with a clear reminder to **pair it with strength work**.\n\n- **Middle-aged & older women.** A 2026 *Frontiers in Physiology* systematic review and meta-analysis (19 RCTs) found HIIT produced a **large, high-certainty improvement in VO2max** (SMD 1.20), consistent across ages and body types. But it showed **limited effect on muscle strength and physical function** — so HIIT alone isn't enough for overall fitness. Add resistance training.\n- **Heart benefits.** A 2026 *International Journal of Obesity* RCT of young women with obesity (8 weeks, classic **4×4-minute** intervals at 85–95% max heart rate) found HIIT improved **myocardial efficiency** (work efficiency, reduced wasted work) more than moderate continuous training.\n\nPractical takeaway: **~3 sessions/week**, intervals hard enough to feel breathless, progress volume gradually, keep recovery adequate — and layer in strength days for the results HIIT doesn't cover.",
+      "sources": [
+        { "title": "Effects of HIIT on cardiopulmonary fitness and physical function in middle-aged and elderly women: a systematic review and meta-analysis", "publisher": "Frontiers in Physiology", "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1778052/full", "date": "2026" },
+        { "title": "Effects of HIIT on cardiopulmonary fitness and physical function in middle-aged and elderly women (PubMed record)", "publisher": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/41859736/", "date": "2026" },
+        { "title": "High-intensity interval training improves myocardial work and cardiac function in women with obesity: a randomized controlled study", "publisher": "International Journal of Obesity (Nature)", "url": "https://www.nature.com/articles/s41366-026-02158-4", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "Pelvic Floor Exercises",
+      "icon": "anchor",
+      "body": "**Pelvic floor muscle training (PFMT)** remains the evidence-based, **first-line** treatment for stress urinary incontinence (SUI). Three fresh 2026 trials show how much it can do.\n\n- **It can even delay surgery.** A 2026 *International Urogynecology Journal* RCT (90 women awaiting sling surgery) found **6 weeks of intensive PFMT** significantly improved muscle strength and symptom severity — and **43% postponed their planned operation** afterward.\n- **A boost for very weak muscles.** A 2026 multicenter RCT found that adding **sEMG-triggered electrical stimulation** to supervised PFMT produced **earlier, greater, and longer-lasting** gains (sustained at 12 months) in women whose pelvic floors were too weak to train effectively alone.\n- **Prevention in pregnancy.** A large 2026 *JAMA Network Open* RCT (764 first-time mothers) found an antenatal pelvic-floor workout **cut postpartum SUI** at 6 weeks (8.7% vs 13.9%).\n\nKey point: **correct technique and consistency beat sheer reps.** Confirm you're activating the right muscles (a clinician or biofeedback helps); supervised programs generally outperform going it alone.",
+      "sources": [
+        { "title": "Effectiveness of Intensive Preoperative Pelvic Floor Muscle Training in Women with Stress Urinary Incontinence Awaiting Surgery: A Randomized Controlled Trial", "publisher": "PubMed (Int Urogynecol J)", "url": "https://pubmed.ncbi.nlm.nih.gov/41793487/", "date": "2026" },
+        { "title": "Pelvic muscle training and electrostimulation to treat weak pelvic floor: a multicentre randomised parallel-group trial", "publisher": "Eur J Obstet Gynecol Reprod Biol", "url": "https://doi.org/10.1016/j.ejogrb.2026.115199", "date": "2026" },
+        { "title": "Pelvic Floor Workout for Preventing Stress Urinary Incontinence in Primiparous Women: A Randomized Clinical Trial", "publisher": "JAMA Network Open", "url": "https://doi.org/10.1001/jamanetworkopen.2026.7132", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "Alternative & Integrative Options — HER2+ / TP53 Breast Cancer",
+      "icon": "ribbon",
+      "body": "\"Alternative\" is best read as **evidence-based care used alongside standard treatment**, not instead of it. This week the most notable science is about **why TP53/p53 status matters** for HER2 disease.\n\n- **A genetics-guided drug strategy.** A 2025 preclinical study (mouse models + organoids) showed that **HER2; TP53 co-mutated** tumors resist the pill **neratinib** but stay **sensitive to trastuzumab deruxtecan (T-DXd)** — because the p53 mutation opens up chromatin (more histone acetylation), making cells vulnerable to T-DXd's topoisomerase-I payload. **Neratinib + T-DXd** was highly effective together in the lab.\n- **In the clinic.** That combination is being tested in an early-phase trial (**NCT05372614**) in HER2-altered solid tumors, with some early responses reported (note: the trial is currently listed as **suspended** for correlative sample analysis).\n\nImportant framing: this is **preclinical/early** evidence about *standard* targeted drugs — not a supplement or a substitute for HER2-directed therapy. Use it as a conversation-starter with your oncology team, especially if a TP53 mutation is known.",
+      "sources": [
+        { "title": "HER2; p53 Co-mutated Cancers Show Increased Histone Acetylation and are Sensitive to Neratinib plus Trastuzumab Deruxtecan", "publisher": "PMC / NIH", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12265670/", "date": "2025" },
+        { "title": "Trastuzumab Deruxtecan in Combination With Neratinib in Solid Tumors With HER2 Alterations (Phase I)", "publisher": "ClinicalTrials.gov", "url": "https://clinicaltrials.gov/study/NCT05372614", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "Sleep — Studies & Best Practices",
+      "icon": "moon",
+      "body": "For chronic, restless, or disjointed sleep, 2026 guidance still puts **behavioral therapy ahead of pills and supplements**.\n\n- **CBT-I stays first-line.** A new (April 2026) **AASM** clinical practice guideline on *combination* therapy issued two conditional recommendations: CBT-I **plus** medication beats **medication alone**, but combination is **not** better than **CBT-I alone** — because CBT-I often delivers durable improvement without drug risks.\n- **Supplements, honestly.** AASM guidance has conditionally recommended **against** melatonin for chronic adult insomnia; it's most useful for **circadian** problems (jet lag, shift work). Evidence for **magnesium** in insomnia remains thin.\n- **If sleep is genuinely \"restless.\"** When there's an urge to move the legs, evening worsening, or relief with movement, screen for **restless legs syndrome**: AASM advises checking **iron studies (ferritin, transferrin saturation)** and treating low iron (e.g., ferritin ≤ 75 ng/mL).\n\nBest-practice habits: keep a **fixed wake time**, reserve the bed **for sleep only**, keep the room cool/dark/quiet, wind down away from screens, and if disrupted sleep persists, see a provider to rule out **sleep apnea** and consider **CBT-I**.",
+      "sources": [
+        { "title": "Combination treatment for chronic insomnia disorder in adults: an AASM clinical practice guideline (full text)", "publisher": "PMC / J Sleep", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13076838/", "date": "2026" },
+        { "title": "Combination treatment for chronic insomnia disorder in adults: an AASM clinical practice guideline", "publisher": "Springer (J Sleep)", "url": "https://link.springer.com/article/10.1007/s44470-025-00038-8", "date": "2026" },
+        { "title": "Treatment of restless legs syndrome and periodic limb movement disorder: an AASM clinical practice guideline", "publisher": "AASM (J Clin Sleep Med)", "url": "https://doi.org/10.5664/jcsm.11390", "date": "2025" }
+      ]
+    }
+  ]
+}
