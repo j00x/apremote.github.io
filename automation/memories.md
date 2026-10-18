@@ -72,6 +72,13 @@ Keep this list authoritative. Produce one section per topic, in this order:
   taurine-biomarker doubt; HIIT meta-analysis; pelvic floor PFMT meta-analysis; HER2+
   DESTINY-Breast09 / TP53 rezatapopt; sleep CBT-I vs magnesium/melatonin). Established the
   warm-morning voice and the 5-topic structure above.
+- **2026-10-18** — Briefing published (Anti-Aging: topical urolithin A RCT in iScience +
+  Front. Pharmacol. supplement-bioavailability review; HIIT: Front. Physiol. SR/MA in women
+  w/ overweight + Br. J. Nutr. TRE×HIIT RCT, "don't lose muscle"; Pelvic floor: PFMT > Pilates
+  RCT + PFMT+education for GSM RCT; HER2+: Nat. Rev. Clin. Oncol. right-sizing/T-DXd + NEJM
+  review + Ki-67/vitamin-D null cross-sectional; Sleep: smartphone CBT-I RCT + German/Austrian
+  deprescribing recommendations + daridorexant suicidal-ideation signal downgraded). Sourced
+  via NCBI E-utilities (esearch/esummary/efetch), all PubMed URLs verified to resolve.
 <!-- Add new entries as preferences/topics evolve, e.g.:
 - YYYY-MM-DD — Adam asked to add "longevity wearables" as topic 6 (icon: pulse).
 - YYYY-MM-DD — Reader prefers metric units; keep summaries under 120 words.

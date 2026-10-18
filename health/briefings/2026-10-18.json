@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-18",
+  "title": "Daily Health Briefing",
+  "intro": "Good morning! Here's today's research digest across your tracked topics — anti-aging, HIIT for women, pelvic floor training, integrative options for HER2+ breast cancer, and sleep. Each section leads with the practical takeaway and the strength of the evidence, with linked citations below. Informational only — talk to a clinician before acting on anything here.",
+  "sections": [
+    {
+      "topic": "Anti-Aging — Supplements & Topicals",
+      "icon": "sparkle",
+      "body": "This week leans toward **topical mitophagy** and a useful reality check on supplements.\n\n- **Topical urolithin A.** A new *iScience* paper (published Oct 16, 2026) reports that in **randomized, placebo-controlled** human studies a topical urolithin A (Mitopure) formulation **reduced periorbital wrinkle depth after 8 weeks** and **calmed UVB-induced redness**, alongside lab evidence of activated mitophagy and lower senescence markers. Promising, but note the studies were **industry-sponsored** (Amazentis/L'Oréal).\n- **Supplement reality check.** A *Frontiers in Pharmacology* review frames popular \"longevity\" compounds — **resveratrol, curcumin, urolithin A** — as real mitochondrial regulators that are hobbled by **poor oral absorption**. Practically: expect **modest** effects from pills, and favor well-formulated or delivery-optimized products over mega-doses.",
+      "sources": [
+        { "title": "Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity", "publisher": "iScience (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/42866687/", "date": "2026" },
+        { "title": "Natural products targeting mitochondrial homeostasis: a four-dimensional framework integrating dynamics, mitophagy, pharmacokinetics, and translational safety", "publisher": "Front. Pharmacology (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/42889944/", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "HIIT Workouts for Women",
+      "icon": "bolt",
+      "body": "The newest evidence keeps HIIT as a **time-efficient** tool for fitness and body composition — with a clear \"don't lose muscle\" caveat.\n\n- **Body composition & fitness.** A 2026 systematic review & meta-analysis (15 RCTs) in *Frontiers in Physiology* found HIIT significantly lowered **body weight, BMI, body-fat %, and fat mass** and sharply improved **VO₂max** in women with overweight/obesity. Effects on cholesterol were mixed, and the authors rate overall certainty as low — so treat it as a reliable *fitness and recomposition* tool, not a guaranteed lipid fix.\n- **Pairing with fasting.** A 131-woman 2×2 **RCT** (*British Journal of Nutrition*) testing time-restricted eating ± HIIT found **no added synergy**, and the fasting arm trimmed fat **but also lost some muscle**. Takeaway: keep **protein and resistance work** in the mix so intensity builds, rather than costs, lean mass.",
+      "sources": [
+        { "title": "Effects of HIIT on body composition, cardiorespiratory fitness, and selected lipid outcomes in adult women with overweight or obesity: a systematic review and meta-analysis", "publisher": "Front. Physiology (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/42840424/", "date": "2026" },
+        { "title": "Interaction between time-restricted eating and HIIT on cardiometabolic outcomes in women with overweight or obesity: a 2×2 factorial randomised controlled trial", "publisher": "Br. J. Nutrition (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/42788200/", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "Pelvic Floor Exercises",
+      "icon": "anchor",
+      "body": "**Pelvic floor muscle training (PFMT)** stays the evidence-based first-line choice — and two fresh RCTs sharpen *how* to do it well.\n\n- **PFMT beats Pilates.** An Oct 15, 2026 **RCT** (*International Urogynecology Journal*) in women with stress incontinence found targeted PFMT dropped the incontinence-impact score by **−4.4 points vs just −0.7 for Pilates**, with much larger gains in pelvic-floor strength. Core/Pilates work is a nice add-on, but **direct pelvic-floor training is what moves the needle**.\n- **Menopause matters.** A 2026 *Menopause* **RCT** showed that **supervised PFMT plus targeted education** eased genitourinary symptoms, incontinence impact, and strength more than education alone. The theme across both: **correct technique + coaching + consistency** beat unguided reps.",
+      "sources": [
+        { "title": "Pelvic Floor Muscle Training Outperforms Pilates in Women with Stress Urinary Incontinence: A Randomized Controlled Trial", "publisher": "Int. Urogynecology J. (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/42878790/", "date": "2026" },
+        { "title": "Effects of pelvic floor muscle training combined with patient education in genitourinary syndrome of menopause: a randomized controlled trial", "publisher": "Menopause (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/42808780/", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "Integrative Options — HER2+ / TP53 Breast Cancer",
+      "icon": "ribbon",
+      "body": "Read \"alternative\" here as **evidence-based options to pair with standard care** — never as a replacement for it.\n\n- **The standard-of-care story is the good news.** A new *Nature Reviews Clinical Oncology* review (Oct 8, 2026) notes HER2-positive disease is now **highly curable early-stage**, with the antibody-drug conjugate **trastuzumab deruxtecan (T-DXd)** moving into earlier lines; the field is even **de-escalating** treatment for low-risk tumors. A 2026 *NEJM* review echoes this rapid progress. Because germline **TP53 (p53)** changes are tied to early-onset breast cancer, genetics-informed care matters.\n- **Supplements — stay grounded.** A 2026 cross-sectional study (*Int. J. Molecular Sciences*) found **no link between vitamin D status and tumor proliferation (Ki-67)**, a reminder to temper enthusiasm for single supplements and **coordinate anything integrative with your oncology team** to avoid interactions.",
+      "sources": [
+        { "title": "Right-sizing treatment for HER2-positive breast cancer: evolving algorithms across the disease continuum", "publisher": "Nat. Rev. Clin. Oncology (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/42850399/", "date": "2026" },
+        { "title": "Advances in Systemic Treatment of Breast Cancer", "publisher": "NEJM (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/42842904/", "date": "2026" },
+        { "title": "Molecular Proliferation Marker Ki-67 in Breast Cancer: The Role of Vitamin D Status, Hormone Receptor Expression, and Clinicopathological Factors — A Cross-Sectional Study", "publisher": "Int. J. Mol. Sciences (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/42884041/", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "Sleep — Studies, Habits & Supplements",
+      "icon": "moon",
+      "body": "For restless or broken sleep, 2026 guidance still puts **behavioral therapy ahead of pills**.\n\n- **CBT-I, now on your phone.** A 2026 **RCT** (*Internet Interventions*, 165 adults) of a fully automated **smartphone CBT-I** program produced a **clinically meaningful drop in insomnia severity** (effect size ~0.66), plus better sleep quality and fewer night-time awakenings — and more app engagement meant bigger gains.\n- **About the medications.** New German/Austrian sleep-society recommendations note **~1 in 4** chronic hypnotic users become dependent; **melatonin, orexin antagonists (e.g., daridorexant), and antihistamines** can usually be stopped without tapering, while **Z-drugs/benzodiazepines need a slow 10–25%/week taper**, with CBT-I as support. A 2026 reanalysis also **downgraded** an earlier daridorexant suicidal-ideation signal (likely confounded by depression).\n- **Supplements, honestly.** **Melatonin** is best for **circadian issues** (jet lag, shift work) and mild sleep-onset trouble, with low dependence; evidence for magnesium remains limited.\n\nBest-practice habits: keep a **fixed wake time**, reserve the bed for sleep, dim screens before bed, and see a provider if disruption lasts beyond a few weeks (to rule out sleep apnea).",
+      "sources": [
+        { "title": "Smartphone-delivered cognitive behavioral therapy for insomnia: A preliminary randomized controlled trial", "publisher": "Internet Interventions (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/42890096/", "date": "2026" },
+        { "title": "Recommendations on Switching or Deprescribing Hypnotic Medications for Insomnia", "publisher": "Dtsch. Arztebl. Int. (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/42535778/", "date": "2026" },
+        { "title": "Suicidal ideation associated with daridorexant treatment in insomnia patients: comparator-restricted disproportionality analysis", "publisher": "Soc. Psychiatry Psychiatr. Epidemiol. (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/42888253/", "date": "2026" }
+      ]
+    }
+  ]
+}
