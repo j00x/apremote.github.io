@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-23",
+  "title": "Daily Health Briefing",
+  "intro": "Good morning! Today's digest leans on fresh 2026 evidence — long-awaited anti-aging RCTs landing with humble results, new women's HIIT and pelvic-floor trials, and updated sleep guidance. The cancer section covers integrative options and genetics to raise with an oncologist. Everything here is informational; talk to a clinician before acting on it.",
+  "sections": [
+    {
+      "topic": "Anti-Aging — Supplements & Rapalogs",
+      "icon": "sparkle",
+      "body": "This season's theme is **humility**: several long-awaited human trials of popular \"longevity\" compounds landed with modest or null results.\n\n- **NMN (NAD+ booster).** A new 24-week RCT (adults 65+, 1,250 mg/day) in *npj Aging* confirmed NMN robustly **raises blood NAD+**, but found **no significant improvement** in the primary endpoint (hearing) or in physical performance. NAD+ went up; function didn't.\n- **Urolithin A.** A 2026 systematic review of 5 RCTs (n=236) could only pool the 6-minute walk test and found a **directionally positive but statistically inconclusive** effect (low certainty). Strength/mitochondrial signals remain exploratory.\n- **Rapamycin.** A review summarizing the **PEARL trial** (largest, 48 weeks, low intermittent dosing) notes it was **reasonably safe** but **missed** its visceral-fat endpoint; only modest, exploratory signals (muscle mass, self-reported pain in women).\n\nTakeaway: prefer interventions with human RCTs, expect **small** effects, and be skeptical of single-pill longevity claims.",
+      "sources": [
+        { "title": "Sustained NAD+ augmentation by high-dose nicotinamide mononucleotide supplementation in older adults: a 24-week randomized, double-blind, placebo-controlled trial", "publisher": "npj Aging (Nature)", "url": "https://doi.org/10.1038/s41514-026-00482-7", "date": "2026" },
+        { "title": "Effects of Urolithin A supplementation on muscle health outcomes in humans from randomized controlled trials", "publisher": "PMC / NIH", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13440176/", "date": "2026" },
+        { "title": "Geroprotective Effects of Drugs Modulating Metabolic Pathways: Perspectives of Pharmacology in Anti-Aging Therapy (PEARL rapamycin & taurine review)", "publisher": "PMC / NIH", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13565775/", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "HIIT Workouts for Women",
+      "icon": "bolt",
+      "body": "New 2026 meta-analyses keep HIIT a **time-efficient** win for cardio fitness and body composition in women — with a clear nudge to **add strength work**.\n\n- **Overweight/obese women.** A 2026 *Frontiers in Physiology* review of **15 RCTs** found HIIT significantly reduced body weight, BMI, **body-fat %**, and fat mass, and strongly improved **VO2max** (Hedges' g = 1.09). Effects on blood lipids were uncertain. (Certainty low to very low — expect real but modest gains.)\n- **Recreationally active women.** A separate meta-analysis (15 studies) found **small VO2max gains** and lower **body-fat %**, but **no change** in overall body mass or fat mass — think recomposition, not the scale.\n- **Midlife & older women.** A 2026 review (19 RCTs) showed HIIT reliably raises **VO2max** (high certainty) but does **little** for muscle strength or function on its own.\n\nBottom line: intensity drives the cardio and fat wins; **pair HIIT with resistance training** and progress gradually.",
+      "sources": [
+        { "title": "Effects of HIIT on body composition, cardiorespiratory fitness, and selected lipid outcomes in adult women with overweight or obesity: a systematic review and meta-analysis", "publisher": "Frontiers in Physiology", "url": "https://doi.org/10.3389/fphys.2026.1904753", "date": "2026" },
+        { "title": "Effects of HIIT on physical fitness and body composition in recreationally active females: a systematic review and meta-analysis", "publisher": "PMC / NIH", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12485165/", "date": "2025" },
+        { "title": "Effects of HIIT on cardiopulmonary fitness and physical function in middle-aged and elderly women: a systematic review and meta-analysis", "publisher": "Frontiers in Physiology", "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1778052/full", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "Pelvic Floor Exercises",
+      "icon": "anchor",
+      "body": "**Pelvic floor muscle training (PFMT)** stays the evidence-based, **first-line** treatment for stress urinary incontinence (SUI). The newest trials sharpen *how* to do it well.\n\n- **PFMT beats Pilates.** An October 2026 RCT (105 women, *Int Urogynecol J*) compared targeted PFMT with Pilates (with or without pelvic-floor cueing). PFMT produced a far larger drop in incontinence impact (**ICIQ-SF −4.4 vs −0.7**) and bigger gains in muscle strength and squeeze pressure. Dedicated pelvic-floor work outperforms general core exercise.\n- **Biofeedback helps a little.** A 2026 meta-analysis (8 RCTs) found adding **EMG biofeedback** to PFMT gives **small additional** improvements in symptoms, quality of life, and muscle strength — useful when you're unsure you're activating the right muscles.\n- **Intensity + consistency matter.** A 99-woman postpartum RCT found a **high-intensity combined** protocol gave the best strength gains and the **lowest 6-month recurrence**.\n\nKey point: **correct technique beats sheer reps** — confirm activation with a clinician or biofeedback, and keep it consistent.",
+      "sources": [
+        { "title": "Pelvic Floor Muscle Training Outperforms Pilates in Women with Stress Urinary Incontinence: A Randomized Controlled Trial", "publisher": "Int Urogynecol J (Springer)", "url": "https://link.springer.com/article/10.1007/s00192-026-06900-4", "date": "2026" },
+        { "title": "Electromyographic biofeedback-assisted pelvic floor muscle training for female stress urinary incontinence: a systematic review and meta-analysis", "publisher": "Frontiers in Medicine", "url": "https://doi.org/10.3389/fmed.2026.1789923", "date": "2026" },
+        { "title": "Effects of various pelvic floor muscle training forms and combined regimens on muscle strength, function, and recurrence rate in post-vaginal delivery SUI", "publisher": "PMC / NIH", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13571952/", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "Alternative & Integrative Options — HER2+ / TP53 Breast Cancer",
+      "icon": "ribbon",
+      "body": "Read \"alternative\" here as **evidence-based integrative care alongside standard treatment** — never a replacement for HER2-targeted therapy. Two threads stand out.\n\n- **Don't ignore vitamin D.** A 2026 retrospective study (*Nutrients*) of curative-intent HER2+ patients found that **failing to correct** a vitamin D deficiency carried a **~1.7× higher recurrence risk**, with a dose-response trend favoring higher levels. It echoes two 2025 RCTs where repletion **doubled** pathologic complete response (pCR) — and a prospective neoadjuvant RCT where vitamin D independently improved pCR (OR 2.33).\n- **Genetics shape prognosis & drugs.** New 2026 data show **TP53 mutations predict shorter benefit** from trastuzumab deruxtecan (T-DXd) in metastatic HER2+ disease — yet preclinical work found **HER2;p53 co-mutated** tumors are especially sensitive to the TOP1-inhibitor payload, supporting a **neratinib + T-DXd** strategy now in early trials.\n\nImportant: much of this is **early or observational**. Use integrative options (like optimizing vitamin D) as *add-ons coordinated with your oncology team*, and ask about TP53/p53 testing — not as substitutes for standard care.",
+      "sources": [
+        { "title": "Successful Vitamin D Replacement After Deficiency and Disease-Free Survival in Curative-Intent HER2+ Breast Cancer: A Retrospective Interventional Study", "publisher": "Nutrients (MDPI)", "url": "https://www.mdpi.com/2072-6643/18/8/1253", "date": "2026" },
+        { "title": "Vitamin D Supplementation During Neoadjuvant Chemotherapy for Breast Cancer Improves Pathological Complete Response: A Prospective Randomized Clinical Trial", "publisher": "PMC / NIH", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12134193/", "date": "2025" },
+        { "title": "HER2; p53 co-mutated cancers show increased histone acetylation and are sensitive to neratinib plus trastuzumab deruxtecan", "publisher": "npj Breast Cancer (Nature)", "url": "https://doi.org/10.1038/s41523-026-01062-4", "date": "2026" },
+        { "title": "Quantitative HER2 tissue and plasma profiling predicts the activity of trastuzumab deruxtecan for breast cancer (TP53 predicts outcome)", "publisher": "npj Precision Oncology (Nature)", "url": "https://www.nature.com/articles/s41698-026-01365-6", "date": "2026" }
+      ]
+    },
+    {
+      "topic": "Sleep — Studies & Best Practices",
+      "icon": "moon",
+      "body": "For chronic, restless, or disjointed sleep, 2026 guidance still puts **behavioral therapy first** and is honest about supplements.\n\n- **CBT-I remains first-line.** A 2026 AASM clinical practice guideline on *combination* therapy made two conditional calls: CBT-I **plus** medication beats **medication alone**, but combination is **not** better than **CBT-I alone** — the therapy itself does the heavy lifting, without drug risks. Digital CBT-I makes it more accessible.\n- **Supplements, honestly.** A 2026 systematic review of RCTs concluded current evidence **does not support magnesium** as a routine insomnia treatment (benefits inconsistent, low certainty). AASM also **suggests against melatonin** for routine sleep-onset or maintenance insomnia — it's most useful for **circadian** issues like jet lag.\n- **Newer medications.** **Orexin-receptor antagonists** (e.g., suvorexant; investigational seltorexant) improved sleep onset/maintenance in RCTs with fewer hangover effects than older Z-drugs — a clinician-guided option.\n\nEvery-night habits that help: keep a **fixed wake time**, reserve the bed **for sleep only**, dim lights and screens before bed, and if restless sleep persists, see a provider to rule out **sleep apnea** and consider **CBT-I**.",
+      "sources": [
+        { "title": "Combination treatment for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline", "publisher": "AASM / PMC", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13076838/", "date": "2026" },
+        { "title": "Magnesium Supplementation for Sleep in Adults: A Systematic Review of Randomized Controlled Trials", "publisher": "Journal of Dietary Supplements (Taylor & Francis)", "url": "https://www.tandfonline.com/doi/full/10.1080/19390211.2026.2719670", "date": "2026" },
+        { "title": "Efficacy and Safety of Seltorexant in Insomnia Disorder: A Randomized Clinical Trial", "publisher": "JAMA / PMC", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12351464/", "date": "2025" }
+      ]
+    }
+  ]
+}
